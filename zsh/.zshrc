@@ -120,6 +120,7 @@ source $ZSH/oh-my-zsh.sh
 alias zshconfig="code ~/.zshrc"
 alias hyperconfig="code ./AppData/Roaming/Hyper/.hyper.js"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias myUser='/mnt/c/Users/gserg/'
 alias cows='fortune | cowsay | lolcat'
 alias update='sudo apt-get update && sudo apt-get dist-upgrade'
 alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
