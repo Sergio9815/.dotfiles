@@ -5,7 +5,6 @@
 
 //COLORS
 const black = '#1A1C24';
-//const black = '#282A36';
 const red = '#F56A79';
 const green = '#59F48D';
 const yellow = '#FFEDA3';
@@ -134,7 +133,7 @@ module.exports = {
             red: red,
             green: green,
             yellow: yellow,
-            blue: dark,
+            blue: lgBlack,
             magenta: lgRed,
             cyan: green,
             white: white,
