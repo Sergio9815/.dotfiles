@@ -87,8 +87,8 @@ export ZSH="/home/sagb/.oh-my-zsh"
 plugins=(
   git
   extract
-  #zsh-syntax-highlighting
-  #zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-autosuggestions
   colorize
   )
 
@@ -145,3 +145,4 @@ eval "$(starship init zsh)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
