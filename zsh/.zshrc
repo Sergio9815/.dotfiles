@@ -122,6 +122,7 @@ alias zshconfig="code .dotfiles/zsh/.zshrc"
 alias hyperconfig="code .dotfiles/hyper/.hyper.js"
 alias cows='fortune | cowsay | lolcat'
 alias update='sudo apt-get update && sudo apt-get dist-upgrade'
+alias access='sudo chown -R $USER:$USER $HOME && startx'
 alias install='sudo apt-get install'
 alias push='git push origin'
 alias pull='git pull origin'
