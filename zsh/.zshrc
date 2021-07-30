@@ -131,13 +131,13 @@ alias commit='git commit -am'
 alias save='git add . && gitmoji -c'
 
 # Linux aliases
-alias github='cd /home/sagb/Documents/Github && ls '
-alias gt='cd /home/sagb/Documents/Github && ls '
+# alias github='cd /home/sagb/Documents/Github && ls '
+# alias gt='cd /home/sagb/Documents/Github && ls '
 
 # Windows aliases
-# alias myUser='/mnt/c/Users/gserg/'
-# alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
-# alias gt='cd /mnt/c/Users/gserg/Documents/Github && ls '
+ alias myUser='/mnt/c/Users/gserg/'
+ alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
+ alias gt='cd /mnt/c/Users/gserg/Documents/Github && ls '
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
