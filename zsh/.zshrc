@@ -22,7 +22,7 @@ export ZSH="/home/sagb/.oh-my-zsh"
 # ZSH_THEME="sorin"
 # ZSH_THEME="af-magic"
 # ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="spaceship"
+# ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -117,19 +117,27 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-alias zshconfig="code ~/.zshrc"
-alias hyperconfig="code ./AppData/Roaming/Hyper/.hyper.js"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias myUser='/mnt/c/Users/gserg/'
+alias zshconfig="code .dotfiles/zsh/.zshrc"
+alias hyperconfig="code .dotfiles/hyper/.hyper.js"
 alias cows='fortune | cowsay | lolcat'
 alias update='sudo apt-get update && sudo apt-get dist-upgrade'
-alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
-alias gt='cd /mnt/c/Users/gserg/Documents/Github && ls '
+alias access='sudo chown -R $USER:$USER $HOME && startx'
 alias install='sudo apt-get install'
+alias uninstall='sudo apt-get --purge remove'
 alias push='git push origin'
 alias pull='git pull origin'
 alias commit='git commit -am'
 alias save='git add . && gitmoji -c'
+
+# Linux aliases
+# alias github='cd /home/sagb/Documents/Github && ls '
+# alias gt='cd /home/sagb/Documents/Github && ls '
+
+# Windows aliases
+ alias myUser='/mnt/c/Users/gserg/'
+ alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
+ alias gt='cd /mnt/c/Users/gserg/Documents/Github && ls '
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -139,3 +147,7 @@ eval "$(starship init zsh)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+<<<<<<< HEAD
+=======
+source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+>>>>>>> 88e392d16c7e93c5b5c57cb1cb28016bd7bc0fbd

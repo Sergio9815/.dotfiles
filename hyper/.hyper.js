@@ -166,12 +166,13 @@ module.exports = {
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
 
-        shell: 'C:\\Windows\\System32\\bash.exe',
+        shell: '',
+        // shell: 'C:\\Windows\\System32\\bash.exe',
 
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
         // by default `['--login']` will be used
 
-        shellArgs: ['--login'],
+        //shellArgs: ['--login'],
         // for environment variables
         env: {},
         // Supported Options:
