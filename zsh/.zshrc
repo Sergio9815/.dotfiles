@@ -147,10 +147,5 @@ eval "$(starship init zsh)"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
->>>>>>> 88e392d16c7e93c5b5c57cb1cb28016bd7bc0fbd
-=======
->>>>>>> 382d9dad8bb02971d983057bee915eb925a1625d
+
+# source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
