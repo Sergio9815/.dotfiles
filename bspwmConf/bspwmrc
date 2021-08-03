@@ -18,3 +18,5 @@ bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 feh --bg-fill /home/sagb/Desktop/sagb/images/fondo.png
 bash ~/.config/polybar/launch.sh --forest 
+picom --experimental-backends &
+bspc config border_width 0
