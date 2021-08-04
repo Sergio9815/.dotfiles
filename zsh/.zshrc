@@ -93,6 +93,7 @@ plugins=(
   )
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/zsh-plugins/sudo.plugin.zsh
 
 # User configuration
 
@@ -129,6 +130,11 @@ alias push='git push origin'
 alias pull='git pull origin'
 alias commit='git commit -am'
 alias save='git add . && gitmoji -c'
+alias ll='lsd -lh --group-dirs=first'
+alias la='lsd -a --group-dirs=first'
+alias l='lsd --group-dirs=first'
+alias lla='lsd -lha --group-dirs=first'
+alias ls='lsd --group-dirs=first'
 
 # Linux aliases
 # alias github='cd /home/sagb/Documents/Github && ls '
@@ -149,3 +155,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
