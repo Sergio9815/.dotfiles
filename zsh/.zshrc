@@ -5,6 +5,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+#WELCOME
+pfetch
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
@@ -117,33 +120,39 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-# Example aliases
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-alias zshconfig="code .dotfiles/zsh/.zshrc"
-alias hyperconfig="code .dotfiles/hyper/.hyper.js"
-alias cows='fortune | cowsay | lolcat'
-alias update='sudo apt-get update && sudo apt-get dist-upgrade'
-alias access='sudo chown -R $USER:$USER $HOME && startx'
-alias install='sudo apt-get install'
-alias uninstall='sudo apt-get --purge remove'
-alias push='git push origin'
-alias pull='git pull origin'
-alias commit='git commit -am'
-alias save='git add . && gitmoji -c'
-alias ll='lsd -lh --group-dirs=first'
-alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
-alias lla='lsd -lha --group-dirs=first'
-alias ls='lsd --group-dirs=first'
 
-# Linux aliases
-# alias github='cd /home/sagb/Documents/Github && ls '
+# Aliases
+
+#System aliases
+  alias zshconfig="code .dotfiles/zsh/.zshrc"
+  alias hyperconfig="code .dotfiles/hyper/.hyper.js"
+  alias cows='fortune | cowsay | lolcat'
+  alias macchina='~/.cargo/bin/macchina'
+  alias clock='tty-clock -c'
+  alias full-clock='tty-clock -s -x -b -c'
+
+  alias update='sudo apt-get update && sudo apt-get dist-upgrade'
+  alias install='sudo apt-get install'
+  alias uninstall='sudo apt-get --purge remove'
+
+  alias ll='lsd -lh --group-dirs=first'
+  alias la='lsd -a --group-dirs=first'
+  alias l='lsd --group-dirs=first'
+  alias lla='lsd -lha --group-dirs=first'
+  alias ls='lsd --group-dirs=first'
+  
   alias gt='cd /home/sagb/Documents/Github && ls '
+  alias access='sudo chown -R $USER:$USER $HOME && startx'
 
-# Windows aliases
+#Git aliases
+  alias push='git push origin'
+  alias pull='git pull origin'
+  alias commit='git commit -am'
+  alias save='git add . && gitmoji -c'
+  
+# WSL aliases
   alias myUser='/mnt/c/Users/gserg/'
   alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
-# alias gt='cd /mnt/c/Users/gserg/Documents/Github && ls '
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
