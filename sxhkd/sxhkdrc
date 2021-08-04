@@ -131,24 +131,34 @@ alt + super + {Left,Down,Up,Right}
 # Open Chrome
 
 super + shift + g
-		google-chrome
+	google-chrome
 
 # Open Firefox
 
 super + shift + f
-		firefox
+	firefox
 
 # Open Vscode
 
 super + shift + v
-		code
+	code
+
+# Open Atom
+
+super + shift + a
+	atom
+
+# Open Spotify
+
+super + shift + s
+	spotify
 
 #Ulauncher
 
-super + space
-    ulauncher
+#super + space
+#    ulauncher
 
 #files
 
-super + shift + h
+super + shift + d
     Thunar
