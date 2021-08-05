@@ -14,26 +14,26 @@ let g:colors_name = "ayu"
 
 let s:palette = {}
 
-let s:palette.bg        = {'dark': "#0F1419",  'light': "#FAFAFA",  'mirage': "#212733"}
+let s:palette.bg        = {'dark': "#191E2A",  'light': "#FAFAFA",  'mirage': "#212733"}
 
-let s:palette.comment   = {'dark': "#5C6773",  'light': "#ABB0B6",  'mirage': "#5C6773"}
-let s:palette.markup    = {'dark': "#F07178",  'light': "#F07178",  'mirage': "#F07178"}
-let s:palette.constant  = {'dark': "#FFEE99",  'light': "#A37ACC",  'mirage': "#D4BFFF"}
-let s:palette.operator  = {'dark': "#E7C547",  'light': "#E7C547",  'mirage': "#80D4FF"}
-let s:palette.tag       = {'dark': "#36A3D9",  'light': "#36A3D9",  'mirage': "#5CCFE6"}
-let s:palette.regexp    = {'dark': "#95E6CB",  'light': "#4CBF99",  'mirage': "#95E6CB"}
-let s:palette.string    = {'dark': "#66D9EF",  'light': "#86B300",  'mirage': "#BBE67E"}
-let s:palette.function  = {'dark': "#FFB454",  'light': "#F29718",  'mirage': "#FFD57F"}
-let s:palette.special   = {'dark': "#E6B673",  'light': "#E6B673",  'mirage': "#FFC44C"}
-let s:palette.keyword   = {'dark': "#FF7733",  'light': "#FF7733",  'mirage': "#FFAE57"}
+let s:palette.comment   = {'dark': "#ACFFAD",  'light': "#ACFFAD",  'mirage': "#ACFFAD"}
+let s:palette.markup    = {'dark': "#F56A79",  'light': "#F56A79",  'mirage': "#F56A79"}
+let s:palette.constant  = {'dark': "#C1B3FF",  'light': "#C1B3FF",  'mirage': "#C1B3FF"}
+let s:palette.operator  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FE6AC0"}
+let s:palette.tag       = {'dark': "#59F48D",  'light': "#59F48D",  'mirage': "#59F48D"}
+let s:palette.regexp    = {'dark': "#ACFFAD",  'light': "#ACFFAD",  'mirage': "#95E6CB"}
+let s:palette.string    = {'dark': "#FDFFB6",  'light': "#FDFFB6",  'mirage': "#BBE67E"}
+let s:palette.function  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FDFFB6"}
+let s:palette.special   = {'dark': "#99EBFC",  'light': "#99EBFC",  'mirage': "#FE6AC0"}
+let s:palette.keyword   = {'dark': "#C490E4",  'light': "#C490E4",  'mirage': "#99EBFC"}
 
-let s:palette.error     = {'dark': "#FF3333",  'light': "#FF3333",  'mirage': "#FF3333"}
-let s:palette.accent    = {'dark': "#F29718",  'light': "#FF6A00",  'mirage': "#FFCC66"}
-let s:palette.panel     = {'dark': "#14191F",  'light': "#FFFFFF",  'mirage': "#272D38"}
+let s:palette.error     = {'dark': "#F77B89",  'light': "#F77B89",  'mirage': "#F77B89"}
+let s:palette.accent    = {'dark': "#FF94CC",  'light': "#FF94CC",  'mirage': "#FDFFB6"}
+let s:palette.panel     = {'dark': "#191E2A",  'light': "#FFFFFF",  'mirage': "#272D38"}
 let s:palette.guide     = {'dark': "#2D3640",  'light': "#D9D8D7",  'mirage': "#3D4751"}
 let s:palette.line      = {'dark': "#151A1E",  'light': "#F3F3F3",  'mirage': "#242B38"}
 let s:palette.selection = {'dark': "#253340",  'light': "#F0EEE4",  'mirage': "#343F4C"}
-let s:palette.fg        = {'dark': "#E6E1CF",  'light': "#5C6773",  'mirage': "#D9D7CE"}
+let s:palette.fg        = {'dark': "#F3F3F3",  'light': "#5C6773",  'mirage': "#D9D7CE"}
 let s:palette.fg_idle   = {'dark': "#3E4B59",  'light': "#828C99",  'mirage': "#607080"}
 
 "}}}
