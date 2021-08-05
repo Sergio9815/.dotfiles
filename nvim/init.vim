@@ -4,13 +4,16 @@ Plug 'honza/vim-snippets'
 Plug 'yggdroot/indentline'
 Plug 'jiangmiao/auto-pairs'
 Plug 'ms-jpq/CHADtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
+Plug 'preservim/nerdtree'
+Plug 'itchyny/lightline.vim'
 call plug#end()
+
 
 syntax enable
 set termguicolors
 hi Normal guibg=NONE ctermbg=NONE
-source $HOME/.config/nvim/lotus.vim
-source $HOME/.config/nvim/lotusbar.vim
+"source $HOME/.config/nvim/lotus.vim
+"source $HOME/.config/nvim/lotusbar.vim
 
 nnoremap ,<space> :CHADopen<CR>
 nnoremap <space>x :wq!<CR>
@@ -27,3 +30,10 @@ hi foldcolumn guibg=bg
 hi VertSplit guibg=#302d38 guifg=#302d38
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
 syntax on
+
+"colorscheme onehalflight
+"colorscheme molokai
+colorscheme ayu
+let g:lightline = {
+      \ 'colorscheme': 'one',
+      \ }
