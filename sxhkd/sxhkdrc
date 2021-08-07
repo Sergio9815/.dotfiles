@@ -4,7 +4,7 @@
  
 # terminal emulator
 super + Return
-    tilix
+    alacritty
  
 # program launcher
 super + d
@@ -131,27 +131,27 @@ alt + super + {Left,Down,Up,Right}
 # Open Chrome
 
 super + shift + g
-	google-chrome
+   google-chrome
 
 # Open Firefox
 
 super + shift + f
-	firefox
+   firefox
 
 # Open Vscode
 
 super + shift + v
-	code
+   code
 
 # Open Atom
 
 super + shift + a
-	atom
+   atom
 
 # Open Spotify
 
 super + shift + s
-	spotify
+   spotify
 
 #Ulauncher
 
@@ -161,4 +161,4 @@ super + shift + s
 #files
 
 super + shift + d
-    Thunar
+   Thunar
