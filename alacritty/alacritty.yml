@@ -142,15 +142,15 @@ cursor:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 #shell:
-#  program: /bin/bash
+#  program: 'C:\\Windows\\System32\\bash.exe'
 #  args:
 #    - --login
 
 # Startup directory
-#working_directory: None
+#working_directory: 'C:\Users\user'
 
 # WinPTY backend (Windows only)
-#winpty_backend: false
+#WinPTY_backend: true
 
 # Send ESC (\x1b) before characters when alt is pressed.
 #alt_send_esc: true
