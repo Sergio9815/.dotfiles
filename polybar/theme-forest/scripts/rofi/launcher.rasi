@@ -8,9 +8,9 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 10";
+	font:							"Iosevka Nerd Font 16";
     show-icons:                     true;
-	icon-theme: 					"Papirus";
+	icon-theme: 					"McMojave-circle-blue";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
@@ -28,7 +28,8 @@ window {
 	border:							0px 0px 0px 0px;
 	border-color:					@ac;
     border-radius:                  0px;
-	width:							500px;
+	width:							60%;
+    height:                         60%;
     location:                       center;
     x-offset:                       0;
     y-offset:                       0;
@@ -68,9 +69,9 @@ inputbar {
 listview {
     background-color:               @al;
     padding:                        0px;
-    columns:                        1;
+    columns:                        2;
     lines:                          6;
-    spacing:                        5px;
+    spacing:                        10px;
     cycle:                          true;
     dynamic:                        true;
     layout:                         vertical;
@@ -91,11 +92,11 @@ element {
     text-color:                     @fg;
     orientation:                    horizontal;
     border-radius:                  0px;
-	padding: 						8px;
+	padding: 						15px;
 }
 
 element-icon {
-    size:                           24px;
+    size:                           4px;
     border:                         0px;
 }
 
