@@ -79,21 +79,21 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#1A1C24'
+    background: '#151826'
     foreground: '#ffffff'
 
   cursor:
-    text: '#1A1C24'
-    cursor: '#FE6AC0'
+    text: '#151826'
+    cursor: '#E6739F'
 
   selection:
-    text: '#1A1C24'
+    text: '#151826'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#1A1C24'
-    red:     '#F56A79'
+    black:   '#151826'
+    red:     '#E6739F'
     green:   '#59F48D'
     yellow:  '#FDFFB6'
     blue:    '#99EBFC'
@@ -104,7 +104,7 @@ colors:
   # Bright colors
   bright:
     black:   '#686868'
-    red:     '#F77B89'
+    red:     '#E6739F'
     green:   '#ACFFAD'
     yellow:  '#FFEDA3'
     blue:    '#99EBFC'   
