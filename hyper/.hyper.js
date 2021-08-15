@@ -5,8 +5,8 @@
 
 //COLORS
 const black = '#1A1C24';
-const red = '#F56A79';
-const green = '#59F48D';
+const red = '#EB6383';
+const green = '#71EFA3';
 const yellow = '#FFEDA3';
 const blue = '#57C7FF';
 const magenta = '#C1B3FF';
@@ -14,7 +14,7 @@ const cyan = '#99EBFC';
 const white = '#fff';
 
 const lgBlack = '#686868';
-const lgRed = '#F77B89';
+const lgRed = '#EB6383';
 const lgGreen = '#ACFFAD';
 const lgYellow = '#FDFFB6';
 const rose = '#FE6AC0';

@@ -84,7 +84,7 @@ colors:
 
   cursor:
     text: '#151826'
-    cursor: '#E6739F'
+    cursor: '#EB6383'
 
   selection:
     text: '#151826'
@@ -93,8 +93,8 @@ colors:
   # Normal colors
   normal:
     black:   '#151826'
-    red:     '#E6739F'
-    green:   '#59F48D'
+    red:     '#EB6383'
+    green:   '#71EFA3'
     yellow:  '#FDFFB6'
     blue:    '#99EBFC'
     magenta: '#C1B3FF'
@@ -104,7 +104,7 @@ colors:
   # Bright colors
   bright:
     black:   '#686868'
-    red:     '#E6739F'
+    red:     '#f26d8c'
     green:   '#ACFFAD'
     yellow:  '#FFEDA3'
     blue:    '#99EBFC'   

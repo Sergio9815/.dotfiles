@@ -16,11 +16,11 @@ let s:palette = {}
 
 let s:palette.bg        = {'dark': "#191E2A",  'light': "#FAFAFA",  'mirage': "#212733"}
 
-let s:palette.comment   = {'dark': "#ACFFAD",  'light': "#ACFFAD",  'mirage': "#ACFFAD"}
-let s:palette.markup    = {'dark': "#F56A79",  'light': "#F56A79",  'mirage': "#F56A79"}
+let s:palette.comment   = {'dark': "#57C7FF",  'light': "#ACFFAD",  'mirage': "#ACFFAD"}
+let s:palette.markup    = {'dark': "#99EBFC",  'light': "#F56A79",  'mirage': "#F56A79"}
 let s:palette.constant  = {'dark': "#C1B3FF",  'light': "#C1B3FF",  'mirage': "#C1B3FF"}
 let s:palette.operator  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FE6AC0"}
-let s:palette.tag       = {'dark': "#59F48D",  'light': "#59F48D",  'mirage': "#59F48D"}
+let s:palette.tag       = {'dark': "#C1B3FF",  'light': "#59F48D",  'mirage': "#59F48D"}
 let s:palette.regexp    = {'dark': "#ACFFAD",  'light': "#ACFFAD",  'mirage': "#95E6CB"}
 let s:palette.string    = {'dark': "#FDFFB6",  'light': "#FDFFB6",  'mirage': "#BBE67E"}
 let s:palette.function  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FDFFB6"}
