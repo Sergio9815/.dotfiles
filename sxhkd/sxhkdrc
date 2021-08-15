@@ -128,15 +128,17 @@ super + ctrl + {Left,Down,Up,Right}
 alt + super + {Left,Down,Up,Right}
     /home/sagb/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
-# Open Chrome
+# Open Browser
 
-super + shift + g
-   google-chrome
+super + shift + b
+   brave-browser
+   #google-chrome
+   #firefox
 
-# Open Firefox
+# Open File manager
 
 super + shift + f
-   firefox
+   Thunar
 
 # Open Vscode
 
@@ -158,7 +160,3 @@ super + shift + s
 #super + space
 #    ulauncher
 
-#files
-
-super + shift + d
-   Thunar
