@@ -29,7 +29,7 @@ if lightline#colorscheme#background() ==# 'light'
   let s:p.inactive.right  = [ [ s:bg, s:gray3 ] ]
 else
   " Dark variant
-  let s:fg    = [ '#abb2bf', 145 ]
+  let s:fg    = [ '#94b6d8', 145 ]
   let s:bg    = [ '#151826', 235 ]
   let s:gray1 = [ '#27273d', 241 ]
   let s:gray2 = [ '#151826', 235 ]

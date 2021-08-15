@@ -19,12 +19,12 @@ let s:palette.bg        = {'dark': "#191E2A",  'light': "#FAFAFA",  'mirage': "#
 let s:palette.comment   = {'dark': "#57C7FF",  'light': "#ACFFAD",  'mirage': "#ACFFAD"}
 let s:palette.markup    = {'dark': "#99EBFC",  'light': "#F56A79",  'mirage': "#F56A79"}
 let s:palette.constant  = {'dark': "#C1B3FF",  'light': "#C1B3FF",  'mirage': "#C1B3FF"}
-let s:palette.operator  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FE6AC0"}
-let s:palette.tag       = {'dark': "#C1B3FF",  'light': "#59F48D",  'mirage': "#59F48D"}
+let s:palette.operator  = {'dark': "#f97794",  'light': "#f97794",  'mirage': "#f97794"}
+let s:palette.tag       = {'dark': "#C1B3FF",  'light': "#71EFA3",  'mirage': "#71EFA3"}
 let s:palette.regexp    = {'dark': "#ACFFAD",  'light': "#ACFFAD",  'mirage': "#95E6CB"}
-let s:palette.string    = {'dark': "#FDFFB6",  'light': "#FDFFB6",  'mirage': "#BBE67E"}
-let s:palette.function  = {'dark': "#FE6AC0",  'light': "#FE6AC0",  'mirage': "#FDFFB6"}
-let s:palette.special   = {'dark': "#99EBFC",  'light': "#99EBFC",  'mirage': "#FE6AC0"}
+let s:palette.string    = {'dark': "#FDFFB6",  'light': "#FDFFB6",  'mirage': "#71EFA3"}
+let s:palette.function  = {'dark': "#f97794",  'light': "#f97794",  'mirage': "#FDFFB6"}
+let s:palette.special   = {'dark': "#99EBFC",  'light': "#99EBFC",  'mirage': "#f97794"}
 let s:palette.keyword   = {'dark': "#C490E4",  'light': "#C490E4",  'mirage': "#99EBFC"}
 
 let s:palette.error     = {'dark': "#F77B89",  'light': "#F77B89",  'mirage': "#F77B89"}
