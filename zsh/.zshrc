@@ -135,7 +135,9 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias update='sudo apt-get update && sudo apt-get dist-upgrade'
   alias install='sudo apt-get install'
   alias uninstall='sudo apt-get --purge remove'
-
+  
+  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
+  
   alias ll='lsd -lh --group-dirs=first'
   alias la='lsd -a --group-dirs=first'
   alias l='lsd --group-dirs=first'

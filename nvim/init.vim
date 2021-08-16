@@ -22,10 +22,11 @@ let g:indentLine_color_gui = '#ea4c88'
 let g:indentLine_char = '⏽ '
 
 set noshowmode
+set number
 
 hi EndOfBuffer guifg=bg guibg=bg
 hi LineNr guibg=bg
-set foldcolumn=2
+" set foldcolumn=2
 hi foldcolumn guibg=bg
 hi VertSplit guibg=#302d38 guifg=#302d38
 autocmd vimenter * hi Normal guibg=NONE ctermbg=NONE " transparent bg
