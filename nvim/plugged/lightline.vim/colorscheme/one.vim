@@ -17,9 +17,9 @@ let s:p = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': 
 
 if lightline#colorscheme#background() ==# 'light'
   " Light variant
-  let s:fg    = [ '#151826', 238 ]
+  let s:fg    = [ '#1c1e28', 238 ]
   let s:bg    = [ '#fafafa', 255 ]
-  let s:gray1 = [ '#151826', 238 ]
+  let s:gray1 = [ '#1c1e28', 238 ]
   let s:gray2 = [ '#f0f0f0', 255 ]
   let s:gray3 = [ '#d0d0d0', 250 ]
   let s:green = [ '#ACFFAD', 35 ]
@@ -30,9 +30,9 @@ if lightline#colorscheme#background() ==# 'light'
 else
   " Dark variant
   let s:fg    = [ '#94b6d8', 145 ]
-  let s:bg    = [ '#151826', 235 ]
+  let s:bg    = [ '#1c1e28', 235 ]
   let s:gray1 = [ '#27273d', 241 ]
-  let s:gray2 = [ '#151826', 235 ]
+  let s:gray2 = [ '#1c1e28', 235 ]
   let s:gray3 = [ '#27273d', 240 ]
 
   let s:p.inactive.left   = [ [ s:gray1,  s:bg ], [ s:gray1, s:bg ] ]

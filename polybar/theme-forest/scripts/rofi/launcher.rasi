@@ -30,9 +30,9 @@ window {
     border-radius:                  0px;
 	width:							60%;
     height:                         60%;
-    location:                       center;
+    location:                       northWest;
     x-offset:                       0;
-    y-offset:                       0;
+    y-offset:                       40px;
 }
 
 prompt {

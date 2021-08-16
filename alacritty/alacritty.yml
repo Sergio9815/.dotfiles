@@ -79,20 +79,20 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#151826'
+    background: '#1c1e28'
     foreground: '#ffffff'
 
   cursor:
-    text: '#151826'
+    text: '#1c1e28'
     cursor: '#EB6383'
 
   selection:
-    text: '#151826'
+    text: '#1c1e28'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#151826'
+    black:   '#1c1e28'
     red:     '#EB6383'
     green:   '#71EFA3'
     yellow:  '#FDFFB6'
