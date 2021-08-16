@@ -17,7 +17,7 @@
             "#8BE9FD",
             "#71EFA3",
             "#FEC3A6",
-            "#ff9cd4",
+            "#f569b8",
             "#C1B3FF",
             "#EB6383",
             "#F1FA8C"
@@ -28,7 +28,7 @@
             "#71EFA3",
             "#F1FA8C",
             "#C1B3FF",
-            "#ff9cd4",
+            "#f569b8",
             "#8BE9FD",
             "#F8F8F2",
             "#6272A4",
@@ -71,7 +71,7 @@
         "terminal.ansiGreen": "#71EFA3",
         "terminal.ansiYellow": "#FFEF9F",
         "terminal.ansiBlue": "#C1B3FF",
-        "terminal.ansiMagenta": "#ff9cd4",
+        "terminal.ansiMagenta": "#f569b8",
         "terminal.ansiCyan": "#8BE9FD",
         "terminal.ansiWhite": "#F8F8F2",
         "contrastBorder": "#1c1e26",
@@ -89,13 +89,13 @@
         "input.border": "#1c1e26",
         "input.placeholderForeground": "#6272A4",
         "inputOption.activeBorder": "#C1B3FF",
-        "inputValidation.infoBorder": "#ff9cd4",
+        "inputValidation.infoBorder": "#f569b8",
         "inputValidation.warningBorder": "#D6ACFF",
         "inputValidation.errorBorder": "#EB6383",
         "badge.foreground": "#F8F8F2",
         "badge.background": "#44475A",
-        "progressBar.background": "#ff9cd4",
-        "list.activeSelectionBackground": "#44475A",
+        "progressBar.background": "#f569b8",
+        "list.activeSelectionBackground": "#1c1e26",
         "list.activeSelectionForeground": "#F8F8F2",
         "list.dropBackground": "#44475A",
         "list.focusBackground": "#44475A75",
@@ -107,21 +107,21 @@
         "activityBar.background": "#1c1e26",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBar.foreground": "#F8F8F2",
-        "activityBar.activeBorder": "#ff9cd4",
+        "activityBar.activeBorder": "#f569b8",
         "activityBar.activeBackground": "#1c1e26",
-        "activityBarBadge.background": "#ff9cd4",
+        "activityBarBadge.background": "#f569b8",
         "activityBarBadge.foreground": "#F8F8F2",
         "sideBar.background": "#1c1e26",
         "sideBarTitle.foreground": "#F8F8F2",
         "sideBarSectionHeader.background": "#282A36",
         "sideBarSectionHeader.border": "#1c1e26",
         "editorGroup.border": "#C1B3FF",
-        "editorGroup.dropBackground": "#44475A70",
+        "editorGroup.dropBackground": "#1c1e26",
         "editorGroupHeader.tabsBackground": "#1c1e26",
-        "tab.activeBackground": "#1c1e26",
+        "tab.activeBackground": "#44475A75",
         "tab.activeForeground": "#F8F8F2",
         "tab.border": "#1c1e26",
-        "tab.activeBorderTop": "#ff9cd4",
+        //"tab.activeBorderTop": "#f569b8a6",
         "tab.inactiveBackground": "#1c1e26",
         "tab.inactiveForeground": "#6272A4",
         "editor.foreground": "#f8f8f2",
@@ -193,9 +193,9 @@
         "merge.incomingHeaderBackground": "#C1B3FF90",
         "editorOverviewRuler.currentContentForeground": "#71EFA3",
         "editorOverviewRuler.incomingContentForeground": "#C1B3FF",
-        "panel.background": "#282A36",
+        "panel.background": "#1c1e26",
         "panel.border": "#C1B3FF",
-        "panelTitle.activeBorder": "#ff9cd4",
+        "panelTitle.activeBorder": "#f569b8",
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#6272A4",
         "statusBar.background": "#c9458e",
@@ -434,7 +434,7 @@
                 "string.other.link.title"
             ],
             "settings": {
-                "foreground": "#ff9cd4"
+                "foreground": "#f569b8"
             }
         },
         {
@@ -563,7 +563,7 @@
                 "comment.block.documentation storage.type.class"
             ],
             "settings": {
-                "foreground": "#ff9cd4"
+                "foreground": "#f569b8"
             }
         },
         {
@@ -829,7 +829,7 @@
                 "punctuation.definition.variable.makefile"
             ],
             "settings": {
-                "foreground": "#ff9cd4"
+                "foreground": "#f569b8"
             }
         },
         {
@@ -874,7 +874,7 @@
             ],
             "settings": {
                 "fontStyle": "regular",
-                "foreground": "#ff9cd4"
+                "foreground": "#f569b8"
             }
         },
         {
@@ -942,7 +942,7 @@
                 "punctuation.definition.group.capture.regexp"
             ],
             "settings": {
-                "foreground": "#ff9cd4"
+                "foreground": "#f569b8"
             }
         },
         {
