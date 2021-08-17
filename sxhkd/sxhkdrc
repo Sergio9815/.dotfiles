@@ -132,7 +132,7 @@ alt + super + {Left,Down,Up,Right}
 
 super + shift + b
    brave-browser
-   #google-chrome
+   #chromium
    #firefox
 
 # Open File manager
