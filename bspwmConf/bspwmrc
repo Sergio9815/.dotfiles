@@ -2,7 +2,8 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V VI #VII VIII IX X
+#bspc monitor -d I II III IV V VI #VII VIII IX X
+bspc monitor -d      
 
 bspc config window_gap          5
 bspc config focus_follows_pointer true
@@ -16,6 +17,7 @@ bspc config gapless_monocle      true
 bspc rule -a Alacritty desktop='^1' follow=on
 bspc rule -a Code desktop='^2' follow=on
 bspc rule -a Brave-browser desktop='^3' follow=on
+bspc rule -a Thunar desktop='^4' follow=on
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
