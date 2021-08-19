@@ -1,31 +1,17 @@
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-#WELCOME
-#pfetch
-
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
 # Path to your oh-my-zsh installation.
-export ZSH="/home/sagb/.oh-my-zsh"
+export ZSH="/root/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-
-# ZSH_THEME="robbyrussell"
-# ZSH_THEME="arrow"
-# ZSH_THEME="muse"
-# ZSH_THEME="sorin"
-# ZSH_THEME="af-magic"
-# ZSH_THEME="powerlevel10k/powerlevel10k"
-# ZSH_THEME="spaceship"
+#ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -88,15 +74,13 @@ export ZSH="/home/sagb/.oh-my-zsh"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  git
-  extract
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-  colorize
-  )
+   git
+   zsh-syntax-highlighting
+   zsh-autosuggestions
+   colorize
+ )
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh-plugins/sudo.plugin.zsh
 
 # User configuration
 
@@ -120,18 +104,9 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
 #
-
-# Aliases
-
-#System aliases
-  alias zshconfig="code .dotfiles/zsh/.zshrc"
-  alias hyperconfig="code .dotfiles/hyper/.hyper.js"
-  alias cows='fortune | cowsay | lolcat'
-  alias macchina='~/.cargo/bin/macchina'
-  alias clock='tty-clock -c'
-  alias full-clock='tty-clock -s -b -c -C 4'
-  alias box-clock='tty-clock -s -x -b -c'
-
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
   alias update='sudo apt-get update && sudo apt-get dist-upgrade'
   alias install='sudo apt-get install'
   alias uninstall='sudo apt-get --purge remove'
@@ -143,44 +118,7 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias l='lsd --group-dirs=first'
   alias lla='lsd -lha --group-dirs=first'
   alias ls='lsd --group-dirs=first'
-  
-  alias gt='cd /home/sagb/Documents/Github && ls '
-  alias access='sudo chown -R $USER:$USER $HOME && startx'
 
-#Git aliases
-  alias push='git push origin'
-  alias pull='git pull origin'
-  alias commit='git commit -am'
-  alias save='git add . && gitmoji -c'
-  
-# WSL aliases
-  alias myUser='/mnt/c/Users/gserg/'
-  alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+#eval "$(starship init zsh)"
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-eval "$(starship init zsh)"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# source /home/sagb/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# Change cursor shape for different vi modes.
-#function zle-keymap-select {
-#  if [[ $KEYMAP == vicmd ]] || [[ $1 = 'block' ]]; then
-#    echo -ne '\e[1 q'
-#  elif [[ $KEYMAP == main ]] || [[ $KEYMAP == viins ]] || [[ $KEYMAP = '' ]] || [[ $1 = 'beam' ]]; then
-#    echo -ne '\e[5 q'
-#  fi
-#}
-#zle -N zle-keymap-select
-
-# Start with beam shape cursor on zsh startup and after every command.
-#zle-line-init() { zle-keymap-select 'beam'}
-
-#source ~/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+source /root/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
