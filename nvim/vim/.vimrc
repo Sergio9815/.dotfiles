@@ -265,4 +265,4 @@ syntax enable
 colorscheme tender
 
 " set lighline theme inside lightline config
-let g:lightline = { 'colorscheme': 'one' }
+let g:lightline = { 'colorscheme': 'tender' }
