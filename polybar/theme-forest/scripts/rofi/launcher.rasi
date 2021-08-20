@@ -8,7 +8,7 @@
  */
 
 configuration {
-	font:							"Iosevka Nerd Font 16";
+	font:							"CaskaydiaCove Nerd Font 16";
     show-icons:                     true;
 	icon-theme: 					"McMojave-circle-blue";
     display-drun: 					"";
@@ -28,8 +28,8 @@ window {
 	border:							0px 0px 0px 0px;
 	border-color:					@ac;
     border-radius:                  0px;
-	width:							60%;
-    height:                         60%;
+	width:							20%;
+    height:                         100%;
     location:                       northWest;
     x-offset:                       0;
     y-offset:                       40px;
@@ -39,8 +39,8 @@ prompt {
     enabled: 						true;
 	padding: 						0px;
 	background-color: 				@bga;
-	text-color: 					@ac;
-	font:							"feather 12";
+	text-color: 					@se;
+	font:							"CaskaydiaCove Nerd Font 12";
 }
 
 entry {
@@ -69,7 +69,7 @@ inputbar {
 listview {
     background-color:               @al;
     padding:                        0px;
-    columns:                        2;
+    columns:                        1;
     lines:                          6;
     spacing:                        10px;
     cycle:                          true;
@@ -111,6 +111,6 @@ element selected {
     background-color:               @se;
     text-color:                     @bg;
 	border:							0px 0px 0px 0px;
-    border-radius:                  0px;
-    border-color:                  	@ac;
+    border-radius:                  10px;
+    border-color:                  	@se;
 }

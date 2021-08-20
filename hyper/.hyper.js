@@ -4,7 +4,7 @@
 // See https://hyper.is#cfg for all currently supported options.
 
 //COLORS
-const black = '#1A1C24';
+const black = '#1a1c2b';
 const red = '#EB6383';
 const green = '#71EFA3';
 const yellow = '#FFEDA3';

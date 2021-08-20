@@ -273,9 +273,9 @@ hi yamlFlowString guifg=#FDFFB6 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cte
 hi yamlFlowStringDelimiter guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#F56A79 ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-let g:terminal_color_foreground = "#1c1e28"
+let g:terminal_color_foreground = "#1a1c2b"
 let g:terminal_color_background = "#eeeeee"
-let g:terminal_color_0 = "#1c1e28"
+let g:terminal_color_0 = "#1a1c2b"
 let g:terminal_color_1 = "#F56A79"
 let g:terminal_color_2 = "#ACFFAD"
 let g:terminal_color_3 = "#FFC996"
@@ -283,7 +283,7 @@ let g:terminal_color_4 = "#b3deef"
 let g:terminal_color_5 = "#FDFFB6"
 let g:terminal_color_6 = "#73cef4"
 let g:terminal_color_7 = "#eeeeee"
-let g:terminal_color_8 = "#1d1d1d"
+let g:terminal_color_8 = "#1a1c2b"
 let g:terminal_color_9 = "#F56A79"
 let g:terminal_color_10 = "#ACFFAD"
 let g:terminal_color_11 = "#FFC996"

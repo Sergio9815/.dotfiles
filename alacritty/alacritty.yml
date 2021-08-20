@@ -79,26 +79,26 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#1c1e28'
+    background: '#1a1c2b'
     foreground: '#ffffff'
 
   cursor:
-    text: '#1c1e28'
-    cursor: '#EB6383'
+    text: '#1a1c2b'
+    cursor: '#f26d8c'
 
   selection:
-    text: '#1c1e28'
+    text: '#1a1c2b'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#1c1e28'
-    red:     '#EB6383'
-    green:   '#71EFA3'
+    black:   '#1a1c2b'
+    red:     '#f26d8c'
+    green:   '#ACFFAD'
     yellow:  '#FDFFB6'
     blue:    '#99EBFC'
-    magenta: '#C1B3FF'
-    cyan:    '#57C7FF'
+    magenta: '#6dcbf9'
+    cyan:    '#C1B3FF' 
     white:   '#EEEEEE'
 
   # Bright colors
@@ -106,11 +106,11 @@ colors:
     black:   '#686868'
     red:     '#f26d8c'
     green:   '#ACFFAD'
-    yellow:  '#FFEDA3'
+    yellow:  '#FDFFB6'
     blue:    '#99EBFC'   
-    magenta: '#C1B3FF'
-    cyan:    '#57C7FF'
-    white:   '#ffffff'
+    magenta: '#6dcbf9'
+    cyan:    '#C1B3FF'
+    white:   '#EEEEEE'
 
 # The value `0.0` is completely transparent and `1.0` is opaque.
 background_opacity: 0.95
