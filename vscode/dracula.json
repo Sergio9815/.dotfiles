@@ -202,7 +202,7 @@
         "diffEditor.insertedTextBackground": "#71EFA320",
         "diffEditor.removedTextBackground": "#EB638350",
 
-        "editorWidget.background": "#21222C",
+        "editorWidget.background": "#1a1c2b",
 
         "editorSuggestWidget.background": "#21222C",
         "editorSuggestWidget.foreground": "#F8F8F2",
