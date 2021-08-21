@@ -10,7 +10,7 @@ configuration {
 
 * {
   background-color: #1a1c2b;
-  bg-alt: #94b6d8;
+  bg-alt: #C1B3FF;
   fg: #ECEFF4;
 
   nord-blue-light: #1a1c2b;
@@ -47,6 +47,7 @@ element {
 element selected {
   background-color: @bg-alt;
   text-color: @nord-blue-light;
+  border-radius: 10px;
 }
 
 inputbar {

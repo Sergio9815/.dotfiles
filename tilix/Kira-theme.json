@@ -1,10 +1,10 @@
 {
     "background-color": "#1a1c2b",
-    "badge-color": "#57C6FF",
+    "badge-color": "#6dcbf9",
     "bold-color": "#FFFFFF",
     "comment": "",
-    "cursor-background-color": "#FE6AC0",
-    "cursor-foreground-color": "#FE6ABF",
+    "cursor-background-color": "#FFC996",
+    "cursor-foreground-color": "#FFC996",
     "foreground-color": "#EFEFEF",
     "highlight-background-color": "#FDFFB6",
     "highlight-foreground-color": "#1a1c2b",
