@@ -84,7 +84,7 @@ colors:
 
   cursor:
     text: '#1a1c2b'
-    cursor: '#f26d8c'
+    cursor: '#FFC996'
 
   selection:
     text: '#1a1c2b'
