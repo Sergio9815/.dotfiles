@@ -160,3 +160,7 @@ super + shift + s
 #super + space
 #    ulauncher
 
+# lockscreen
+super + l
+   betterlockscreen -l dim
+
