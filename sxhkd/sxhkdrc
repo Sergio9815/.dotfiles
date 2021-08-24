@@ -1,5 +1,5 @@
 #
-# wm independent hotkeys
+# WM Configuration
 #
  
 # terminal emulator
@@ -12,8 +12,8 @@ super + d
  
 # make sxhkd reload its configuration files:
 super + Escape
-    pkill -USR1 -x sxhkd
- 
+    pkill -USR1 -x sxhkd && sh ~/.scripts/notification/reload.sh
+    
 #
 # bspwm hotkeys
 #
@@ -164,3 +164,18 @@ super + shift + s
 super + l
    betterlockscreen -l dim
 
+
+# --| Clear workspace |-- #
+super + shift + k
+    zsh ~/.scripts/pane/clear_workspace.sh
+
+# --| Brightness Control |-- #
+XF86MonBrightnessUp
+    sh ~/.scripts/notification/brightness.sh up
+
+XF86MonBrightnessDown
+    sh ~/.scripts/notification/brightness.sh down
+
+# --| Emoji Menu |-- #
+super + e
+    sh ~/.scripts/menu/emoji.sh
