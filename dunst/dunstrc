@@ -107,20 +107,20 @@
     frame_color = "#caf6bb"
     icon = "~/.config/dunst/icons/low.svg"
     foreground="#bfdaf2"
-    timeout = 3
+    timeout = 5
 
 [urgency_normal]
     background = "#1c1e28"
     frame_color = "#C1B3FF"
     icon = "~/.config/dunst/icons/star_stars.svg"
-    timeout = 5
+    timeout = 10
     foreground="#bfdaf2"
 
 [urgency_critical]
     background = "#1c1e28"
     frame_color = "#ebb9b9"
     icon = "~/.config/dunst/icons/critical.svg"
-    timeout = 3
+    timeout = 5
     foreground="#bfdaf2"
 
 
