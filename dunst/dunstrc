@@ -19,7 +19,7 @@
 
     indicate_hidden = false
 
-    icon_path = /usr/share/icons/candy-icons/places/48/:/usr/share/icons/candy-icons/devices/scalable/:/usr/share/icons/candy-icons/apps/scalable/:/usr/share/icons/candy-icons/preferences/scalable/
+    icon_path = /usr/share/icons/Lyra-purple/status/32/:/usr/share/icons/Lyra-purple/devices/24/:/usr/share/icons/Lyra-purple/apps/scalable/:/usr/share/icons/Lyra-purple/actions/32/
 	
     # Show how many messages are currently hidden (because of geometry).
     shrink = false
