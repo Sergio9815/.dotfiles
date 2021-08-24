@@ -2,6 +2,8 @@
 # WM Configuration
 #
  
+#  ~/.config/sxhkd/sxhkdrc
+
 # terminal emulator
 super + Return
     alacritty

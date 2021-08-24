@@ -5,6 +5,8 @@
 " Last Change: 2019/09/09 22:42:48.
 " =============================================================================
 
+" ~/.vim/pack/plugins/start/lightline
+
 " Common colors
 let s:blue   = [ '#99EBFC', 75 ]
 let s:green  = [ '#ACFFAD', 76 ]

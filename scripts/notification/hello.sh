@@ -7,6 +7,8 @@
 # Dependencies:
 # dunstify
 
+# ~/.scripts
+
 NAME="Sergio"
 APPNAME=609
 

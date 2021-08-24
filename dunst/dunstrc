@@ -1,5 +1,7 @@
 # Frenzy's Dunst
 
+# ~/.config/dunst/dunstrc
+
 [colors]
     foreground = "#bfdaf2"
 
@@ -113,7 +115,7 @@
     background = "#1c1e28"
     frame_color = "#C1B3FF"
     icon = "~/.config/dunst/icons/star_stars.svg"
-    timeout = 10
+    timeout = 8
     foreground="#bfdaf2"
 
 [urgency_critical]

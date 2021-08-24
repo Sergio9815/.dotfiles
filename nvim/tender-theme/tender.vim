@@ -7,6 +7,8 @@
 " Last Change: 2020/04/24 16:58
 " ===============================================================
 
+" ~/.vim/plugged/tender.vim/
+
 set background=dark
 hi clear
 if exists("syntax_on")
