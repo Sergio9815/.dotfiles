@@ -10,7 +10,7 @@
 configuration {
 	font:							"CaskaydiaCove Nerd Font 16";
     show-icons:                     true;
-	icon-theme: 					"McMojave-circle-blue";
+	icon-theme: 					"candy-icons";
     display-drun: 					"";
     drun-display-format:            "{name}";
     disable-history:                false;
