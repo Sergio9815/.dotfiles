@@ -166,7 +166,6 @@ super + shift + s
 super + l
    betterlockscreen -l dim
 
-
 # --| Clear workspace |-- #
 super + shift + k
     zsh ~/.scripts/pane/clear_workspace.sh
