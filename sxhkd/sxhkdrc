@@ -188,3 +188,13 @@ super + shift + s
 # Pomotroid
 super + shift + p
     pomotroid
+
+# --| Volume Control |-- #
+XF86AudioMute
+    sh ~/.scripts/notification/volume_pam.sh toggle
+
+XF86AudioRaiseVolume
+    sh ~/.scripts/notification/volume_pam.sh up
+
+XF86AudioLowerVolume
+    sh ~/.scripts/notification/volume_pam.sh down
