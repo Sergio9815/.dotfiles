@@ -133,50 +133,58 @@ alt + super + {Left,Down,Up,Right}
 # Open Browser
 
 super + shift + b
-   brave-browser
-   #chromium
-   #firefox
+    brave-browser
+    #chromium
+    #firefox
 
 # Open File manager
 
 super + shift + f
-   Thunar
+    Thunar
 
 # Open Vscode
 
 super + shift + v
-   code
+    code
 
 # Open Atom
 
 super + shift + a
-   atom
+    atom
 
 # Open Spotify
 
-super + shift + s
-   spotify
+super + shift + m
+    spotify
 
-#Ulauncher
+# Ulauncher
 
 #super + space
-#    ulauncher
+#   ulauncher
 
 # lockscreen
 super + l
-   betterlockscreen -l dim
+    betterlockscreen -l dim
 
-# --| Clear workspace |-- #
+# Clear workspace
 super + shift + k
     zsh ~/.scripts/pane/clear_workspace.sh
 
-# --| Brightness Control |-- #
+# Brightness Control
 XF86MonBrightnessUp
     sh ~/.scripts/notification/brightness.sh up
 
 XF86MonBrightnessDown
     sh ~/.scripts/notification/brightness.sh down
 
-# --| Emoji Menu |-- #
+# Emoji Menu
 super + e
     sh ~/.scripts/menu/emoji.sh
+
+# Screenshot
+super + shift + s
+    xfce4-screenshooter
+
+# Pomotroid
+super + shift + p
+    pomotroid
