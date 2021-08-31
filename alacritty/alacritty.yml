@@ -81,20 +81,20 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#1a1c2b'
+    background: '#1B1B23'
     foreground: '#ffffff'
 
   cursor:
-    text: '#1a1c2b'
+    text: '#1B1B23'
     cursor: '#FFC996'
 
   selection:
-    text: '#1a1c2b'
+    text: '#1B1B23'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#1a1c2b'
+    black:   '#1B1B23'
     red:     '#f26d8c'
     green:   '#ACFFAD'
     yellow:  '#FDFFB6'
@@ -115,7 +115,7 @@ colors:
     white:   '#EEEEEE'
 
 # The value `0.0` is completely transparent and `1.0` is opaque.
-window.opacity: 0.95
+window.opacity: 0.98
 
 #selection:
   #semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
