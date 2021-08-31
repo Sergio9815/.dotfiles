@@ -196,3 +196,7 @@ XF86AudioLowerVolume
 # PowerMenu
 super + x
     ~/.config/polybar/forest/scripts/powermenu.sh
+
+# Polybar Launcher
+super + a
+    ~/.config/polybar/forest/scripts/launcher.sh
