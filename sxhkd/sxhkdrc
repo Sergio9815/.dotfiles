@@ -165,11 +165,11 @@ super + shift + k
     zsh ~/.scripts/pane/clear_workspace.sh
 
 # Brightness Control
-XF86MonBrightnessUp
-    sh ~/.scripts/notification/brightness.sh up
+#XF86MonBrightnessUp
+#    sh ~/.scripts/notification/brightness.sh up
 
-XF86MonBrightnessDown
-    sh ~/.scripts/notification/brightness.sh down
+#XF86MonBrightnessDown
+#    sh ~/.scripts/notification/brightness.sh down
 
 # Emoji Menu
 super + e
