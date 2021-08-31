@@ -131,34 +131,28 @@ alt + super + {Left,Down,Up,Right}
     /home/sagb/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
 # Open Browser
-
 super + shift + b
     brave-browser
     #chromium
     #firefox
 
 # Open File manager
-
 super + shift + f
     Thunar
 
 # Open Vscode
-
 super + shift + v
     code
 
 # Open Atom
-
 super + shift + a
     atom
 
 # Open Spotify
-
 super + shift + m
     spotify
 
 # Ulauncher
-
 #super + space
 #   ulauncher
 
@@ -198,3 +192,7 @@ XF86AudioRaiseVolume
 
 XF86AudioLowerVolume
     sh ~/.scripts/notification/volume_pam.sh down
+
+# PowerMenu
+super + x
+    ~/.config/polybar/forest/scripts/powermenu.sh
