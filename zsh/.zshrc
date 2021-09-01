@@ -98,7 +98,7 @@ plugins=(
   )
 
 source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh-plugins/sudo.plugin.zsh
+# source /usr/share/zsh-plugins/sudo.plugin.zsh
 
 # User configuration
 
@@ -138,16 +138,16 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias install='sudo apt-get install'
   alias uninstall='sudo apt-get --purge remove'
   
-  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
+#  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
   
-  alias ll='lsd -lh --group-dirs=first'
-  alias la='lsd -a --group-dirs=first'
-  alias l='lsd --group-dirs=first'
-  alias lla='lsd -lha --group-dirs=first'
-  alias ls='lsd --group-dirs=first'
+#  alias ll='lsd -lh --group-dirs=first'
+#  alias la='lsd -a --group-dirs=first'
+#  alias l='lsd --group-dirs=first'
+#  alias lla='lsd -lha --group-dirs=first'
+#  alias ls='lsd --group-dirs=first'
   
-  alias gt='cd /home/sagb/Documents/Github && ls '
-  alias access='sudo chown -R $USER:$USER $HOME && startx'
+#  alias gt='cd /home/sagb/Documents/Github && ls '
+#  alias access='sudo chown -R $USER:$USER $HOME && startx'
 
 #Git aliases
   alias push='git push origin'
