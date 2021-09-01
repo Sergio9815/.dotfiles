@@ -1,9 +1,9 @@
-# Replace the "❯" symbol in the prompt with "➜"
+# Replace the "❯" symbol in the prompt with "➜, λ, ✦, ﲯ , ﯐, 艹, ﯇, , ﲖ, 壟, ﬌, 契, 菱"
 [character]                            # The name of the module we are configuring is "character"
 success_symbol = "[ ❯](bold green)"     # The "success_symbol" segment is being set to "➜" with the color "bold green"
 error_symbol = "[ ❯](bold red) "
 
-# format = """
-# [┌────](bold green)  $directory $git_branch $python
-# [│](bold green)
-# [└─>](bold green) """
+ # format = """
+ # [](bold green) $directory $git_branch $python
+ # [│](bold green)
+ # [└─契](bold green) """
