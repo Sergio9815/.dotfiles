@@ -183,7 +183,17 @@ super + shift + s
 super + shift + p
     pomotroid
 
-# --| Volume Control |-- #
+# Music Control
+XF86Audio{Prev}
+    playerctl previous spotify
+
+XF86Audio{Next}
+    playerctl next spotify
+
+XF86Audio{Play}
+    playerctl play-pause spotify
+
+# Volume Control
 XF86AudioMute
     sh ~/.scripts/notification/volume_pam.sh toggle
 
