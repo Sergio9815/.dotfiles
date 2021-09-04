@@ -145,6 +145,11 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias l='lsd --group-dirs=first'
   alias lla='lsd -lha --group-dirs=first'
   alias ls='lsd --group-dirs=first'
+
+  alias neofetch='neofetch --ascii_distro Linux_Lite'
+  alias pikafetch='neofetch --ascii ~/.ascii-art/pika.txt'
+  alias trifetch='neofetch --ascii ~/.ascii-art/tri.txt'
+  alias spiderfetch='neofetch --ascii ~/.ascii-art/spider.txt'
   
   alias gt='cd /home/sagb/Documents/Github && ls '
   alias access='sudo chown -R $USER:$USER $HOME && startx'
