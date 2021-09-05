@@ -81,20 +81,20 @@ draw_bold_text_with_bright_colors: true
 
 colors:
   primary:
-    background: '#1B1B23'
+    background: '#18181c'
     foreground: '#ffffff'
 
   cursor:
-    text: '#1B1B23'
+    text: '#18181c'
     cursor: '#FFC996'
 
   selection:
-    text: '#1B1B23'
+    text: '#18181c'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#1B1B23'
+    black:   '#18181c'
     red:     '#f26d8c'
     green:   '#ACFFAD'
     yellow:  '#FDFFB6'
