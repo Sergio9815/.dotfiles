@@ -177,7 +177,7 @@ super + e
 
 # Screenshot
 super + shift + s
-    xfce4-screenshooter
+    xfce4-screenshooter && sh ~/.scripts/notification/screenshot.sh &
 
 # Pomotroid
 super + shift + p
