@@ -26,7 +26,7 @@ exit 1
 
 ID=500
 APPNAME="volume_boi"
-icon_name="~/.config/dunst/icons/star_stars.svg"
+icon_name="~/.config/dunst/icons/meowth.svg"
 
 # If someone wants to know how to use this
 
@@ -51,7 +51,7 @@ then
                 # Send notification thing
                 #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
                 #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#2c2e3e '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#caf6bb '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
                 
             fi
             ;;
@@ -62,7 +62,7 @@ then
                 # Send notification thing
                 #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
                 #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#2c2e3e '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebe3ba '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
             fi
             ;;
         toggle)
@@ -70,16 +70,15 @@ then
             echo $volume
             if [ "$volume" == "muted" ] 
             then
-                icon_name="~/.config/dunst/icons/skull.svg"
                 # Send notification thing
                 #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
                 #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#2c2e3e '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebb9b9 '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
             else
                 # Send notification thing
                 #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
                 #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#2c2e3e '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebb9b9 '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
             fi
             ;;
         *)
