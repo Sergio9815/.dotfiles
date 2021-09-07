@@ -10,7 +10,7 @@ configuration {
 
 * {
   background-color: #18181c;
-  bg-alt: #99EBFC;
+  bg-alt: #7fd4ff;
   fg: #ECEFF4;
 
   nord-blue-light: #18181c;
