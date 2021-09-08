@@ -14,8 +14,9 @@ bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
-bspc config focused_border_color	"#caf6bb"
-bspc config normal_border_color		"#1c1e28"
+bspc config focused_border_color	"#7fd4ff"
+bspc config normal_border_color		"#18181c"
+bspc config border_width        0
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Chromium desktop='^2'
@@ -29,5 +30,4 @@ bspc rule -a Screenkey manage=off
 #feh --bg-fill /home/sagb/Desktop/sagb/images/fondo.png
 bash ~/.config/polybar/launch.sh --forest 
 picom --experimental-backends &
-bspc config border_width 0
 sh ~/.scripts/notification/hello.sh &
