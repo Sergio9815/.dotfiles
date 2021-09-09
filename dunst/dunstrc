@@ -106,7 +106,7 @@
 
 [urgency_low]
     background = "#18181c"
-    frame_color = "#caf6bb"
+    frame_color = "#7fd4ff"
     icon = "~/.config/dunst/icons/low.svg"
     foreground="#bfdaf2"
     timeout = 5
@@ -120,7 +120,7 @@
 
 [urgency_critical]
     background = "#18181c"
-    frame_color = "#ebb9b9"
+    frame_color = "#f26d8c"
     icon = "~/.config/dunst/icons/critical.svg"
     timeout = 5
     foreground="#bfdaf2"
