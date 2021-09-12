@@ -1,129 +1,288 @@
-# Frenzy's Dunst
-
-# ~/.config/dunst/dunstrc
-
-[colors]
-    foreground = "#bfdaf2"
+#   ██████╗ ██╗   ██╗███╗   ██╗███████╗████████╗
+#   ██╔══██╗██║   ██║████╗  ██║██╔════╝╚══██╔══╝
+#   ██║  ██║██║   ██║██╔██╗ ██║███████╗   ██║   
+#   ██║  ██║██║   ██║██║╚██╗██║╚════██║   ██║   
+#   ██████╔╝╚██████╔╝██║ ╚████║███████║   ██║   
+#   ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝╚══════╝   ╚═╝   
+#   Laptop Configuration                                               
 
 [global]
-    ### Display ###
-		
-    # Which monitor should the notifications be displayed on.
-    monitor = 0
-    follow = keyboard
 
-    # The geometry of the window:
-    # [{width}]x{height}[+/-{x}+/-{y}]
-    # The geometry of the message window.
-    geometry = "342x3-34+34"
+#----------------------
+#   DISPLAY
+#----------------------
 
-    indicate_hidden = false
+monitor = 0
 
-    icon_path = /usr/share/icons/Lyra-purple/status/32/:/usr/share/icons/Lyra-purple/devices/24/:/usr/share/icons/Lyra-purple/apps/scalable/:/usr/share/icons/Lyra-purple/actions/32/
-	
-    # Show how many messages are currently hidden (because of geometry).
-    shrink = false
+follow = mouse
 
-    # Transparency of notifications [0-100]
-    transparency = 25
+per_monitor_dpi = false
 
-    # Notification stack
-    notification_height = 3
+#----------------------
+#   GENERAL PROPERTIES
+#----------------------
 
-    # You want a Gap?
-    separator_height = 1
+show_age_threshold = 120
 
-    # Notification box padding
-    padding = 24
-    horizontal_padding = 24
+stack_duplicates = true
+hide_duplicate_count = false
 
-    # The Thing that Barbose implemented in his fork
-    frame_width = 3
-    outer_frame_width = 14
+show_indicators = no
+indicate_hidden = yes
 
-    # Round corners, that's it
-    corner_radius = 5
+title = Dunst
+class = Dunst
 
-    # From what Barbose implemented, the other frame
-    outer_frame_color = "#1c1e28"
+browser = /usr/bin/firefox
 
-    separator_color = auto
-    sort = yes
-    idle_threshold = 120
+always_run_script = true
 
-    # Text 
-    font = Cartograph CF 13
-    line_height = 1
+startup_notification = false
 
-    markup = full
+verbosity = mesg
 
-    # The format of the message.  Possible variables are:
-    #   %a  appname
-    #   %s  summary
-    #   %b  body
-    #   %i  iconname (including its path)
-    #   %I  iconname (without its path)
-    #   %p  progress value if set ([  0%] to [100%]) or nothing
-    #   %n  progress value if set without any extra characters
-    #   %%  Literal %
-    # Markup is allowed
-    format = "%s\n%b"
-    #format = "<span size="x-large"><b> %s</b></span>\n%b"
-    alignment = center
-    show_age_threshold = -1
-    word_wrap = true
-    ellipsize = middle
-    ignore_newline = false
-    stack_duplicates = true
-    hide_duplicate_count = true
-    show_indicators = true
+force_xinerama = false
 
-    ### Icons ###
-    icon_position = left
-    max_icon_size = 64
+#----------------------
+#   FRAME PROPERTIES
+#----------------------
 
-    ### History ###
-    sticky_history = yes
-    history_length = 20
+geometry = "320x300-11+44"
+corner_radius = 5
 
-    ### Misc/Advanced ###
-    dmenu = /usr/bin/alacritty -e fzf:
-    browser = linkhandler
-    always_run_script = false
-    title = Dunst
-    class = Dunst
-    startup_notification = false
-    force_xinerama = false
+shrink = no
 
-[experimental]
-    per_monitor_dpi = false
+transparency = 10
 
+notification_height = 0
+separator_height = 3
+line_height = 1
+padding = 8
+horizontal_padding = 8
+frame_width = 0
 
-[shortcuts]
-    close = ctrl+space
-    close_all = ctrl+shift+space
-    history = ctrl+grave
+sort = yes
+
+idle_threshold = 120
+
+progress_bar = true
+progress_bar_height = 10
+
+#----------------------
+#   FORMAT
+#----------------------
+
+markup = full
+
+format = "%s\n%b"
+
+alignment = center
+
+word_wrap = yes
+
+ellipsize = middle
+
+ignore_newline = no
+
+font = SF Pro Text Regular 14
+
+#----------------------
+#   ICONS
+#----------------------
+
+icon_position = left
+
+min_icon_size = 48
+max_icon_size = 64
+
+#icon_path = /usr/share/icons/dunst/system:/usr/share/icons/dunst/apps
+icon_path = /usr/share/icons/Lyra-purple/status/32/:/usr/share/icons/Lyra-purple/devices/24/:/usr/share/icons/Lyra-purple/apps/scalable/:/usr/share/icons/Lyra-purple/actions/32/
+
+#----------------------
+#   HISTORY
+#----------------------
+
+sticky_history = yes
+
+history_length = 20
+
+#----------------------
+#   MOUSE INTERACTION
+#----------------------
+
+mouse_left_click = do_action
+mouse_middle_click = close_all
+mouse_right_click = close_current
+
+#----------------------
+#   URGENCY LEVELS
+#----------------------
 
 [urgency_low]
-    background = "#18181c"
-    frame_color = "#7fd4ff"
-    icon = "~/.config/dunst/icons/low.svg"
-    foreground="#bfdaf2"
-    timeout = 5
+background = "#18181c"
+foreground = "#f9f7f3"
+highlight = "#7fd4ff"
+timeout = 3
+icon = /usr/share/icons/dunst/system/info.svg
 
+# ffcc99
 [urgency_normal]
-    background = "#18181c"
-    frame_color = "#C1B3FF"
-    icon = "~/.config/dunst/icons/star_stars.svg"
-    timeout = 8
-    foreground="#bfdaf2"
+background = "#18181c"
+foreground = "#f9f7f3"
+highlight = "#7fd4ff"
+timeout = 4
+icon = /usr/share/icons/dunst/system/info.svg
 
 [urgency_critical]
-    background = "#18181c"
-    frame_color = "#f26d8c"
-    icon = "~/.config/dunst/icons/critical.svg"
-    timeout = 5
-    foreground="#bfdaf2"
+background = "#18181c"
+foreground = "#f9f7f3"
+highlight = "#7fd4ff"
+timeout = 5
+icon = /usr/share/icons/dunst/system/urgent.svg
 
+#----------------------
+#   CUSTOM RULES
+#----------------------
 
-# vim: ft=conf
+# •• System General
+
+[system]
+appname = System
+new_icon = /usr/share/icons/dunst/system/system.svg
+
+[bspwm]
+appname = System
+summary = bspwm
+new_icon = /usr/share/icons/dunst/system/system.svg
+
+[sxhkd]
+appname = System
+summary = sxhkd
+new_icon = /usr/share/icons/dunst/system/sxhkd.svg
+
+[welcome]
+appname = System
+summary = Welcome
+format = "<b>%s,\n%b</b>"
+new_icon = /usr/share/icons/dunst/misc/face
+[updates_yes]
+appname = System
+summary = Updates
+body = Available*
+new_icon = /usr/share/icons/dunst/system/updates_yes.svg
+[updates_no]
+appname = System
+summary = Updates
+body = "All packages synced"
+new_icon = /usr/share/icons/dunst/system/updates_no.svg
+
+# •• Volume & Backlight
+
+[volume0]
+appname = System
+summary = Volume: [0-9]*
+new_icon = /usr/share/icons/dunst/system/volume1.svg
+[volume1]
+appname = System
+summary = Volume: [0-3][0-9]*
+new_icon = /usr/share/icons/dunst/system/volume1.svg
+[volume2]
+appname = System
+summary = Volume: [4-6][0-9]*
+new_icon = /usr/share/icons/dunst/system/volume2.svg
+[volume3]
+appname = System
+summary = Volume: [7-9][0-9]*
+new_icon = /usr/share/icons/dunst/system/volume3.svg
+highlight = "#7fd4ff"
+[volume4]
+appname = System
+summary = Volume: 1[0-9][0-9]*
+new_icon = /usr/share/icons/dunst/system/volume3.svg
+highlight = "#f45866"
+
+[sound_off]
+appname = System
+summary = "Audio Muted"
+new_icon = /usr/share/icons/dunst/system/sound_off.svg
+[sound_on]
+appname = System
+summary = "Audio Unmuted"
+new_icon = /usr/share/icons/dunst/system/volume3.svg
+
+[backlight0]
+appname = System
+summary = Backlight: [0-9]*
+new_icon = /usr/share/icons/dunst/system/backlight1.svg
+[backlight1]
+appname = System
+summary = Backlight: [0-3][0-9]*
+new_icon = /usr/share/icons/dunst/system/backlight1.svg
+[backlight2]
+appname = System
+summary = Backlight: [4-6][0-9]*
+new_icon = /usr/share/icons/dunst/system/backlight2.svg
+[backlight3]
+appname = System
+summary = Backlight: [7-9][0-9]*
+new_icon = /usr/share/icons/dunst/system/backlight3.svg
+highlight = "#f45866"
+[backlight4]
+appname = System
+summary = Backlight: 1[0-9][0-9]*
+new_icon = /usr/share/icons/dunst/system/backlight3.svg
+highlight = "#7fd4ff"
+
+# •• Keyboard Functions
+
+[capslock_on]
+appname = System
+summary = "Caps Lock Enabled"
+new_icon = /usr/share/icons/dunst/system/caps_on.svg
+[capslock_off]
+appname = System
+summary = "Caps Lock Disabled"
+new_icon = /usr/share/icons/dunst/system/caps_off.svg
+
+[touchpad]
+appname = System
+summary = Touchpad
+new_icon = /usr/share/icons/dunst/system/touchpad.svg
+
+# •• Applications
+
+[color_picker]
+appname = "Color Picker"
+format = "<b>%a</b>\n%s\n%b"
+new_icon = /usr/share/icons/dunst/system/color.svg
+[color_preview]
+appname = "Color Preview"
+format = "%s"
+new_icon = ""
+
+[flameshot]
+appname = flameshot
+format = "<b>%a</b>\n%b"
+timeout = 3
+
+[rofi_calc]
+appname = Calculator
+format = "<b>%a</b>\n%s"
+new_icon = /usr/share/icons/dunst/system/roficalc.svg
+
+[firefox]
+desktop_entry = Firefox
+new_icon = /usr/share/icons/dunst/apps/firefox.svg
+
+[record_on]
+appname = "OBS Studio"
+summary = "Recording Started"
+format = "<b>%a</b>\n%s"
+new_icon = /usr/share/icons/dunst/system/record_on.svg
+[record_off]
+appname = "OBS Studio"
+summary = "Recording Stopped"
+format = "<b>%a</b>\n%s"
+new_icon = /usr/share/icons/dunst/system/record_off.svg
+
+# vim: ft=cfg
