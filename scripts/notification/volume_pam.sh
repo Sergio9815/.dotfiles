@@ -26,7 +26,7 @@ exit 1
 
 ID=500
 APPNAME="volume_boi"
-icon_name="~/.config/dunst/icons/meowth.svg"
+icon_name="~/.config/dunst/icons/dratini.svg"
 
 # If someone wants to know how to use this
 
@@ -48,10 +48,9 @@ then
             if [ $volume != "muted" ] 
             then
                 pamixer -i 10
+                currentVol=$(pamixer --get-volume-human)
                 # Send notification thing
-                #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
-                #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#caf6bb '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me up</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#bfdaf2 '      ' "<span foreground='#ACFFAD' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#7fd4ff' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#C1B3FF' font_desc='Cartograph CF Italic 19'><b>me up</b></span>\n<span foreground='#cddbf9' font_desc='MesloLGS NF 15'>~ 墳 $currentVol ~<b>$(bar_thingy)</b></span>"
                 
             fi
             ;;
@@ -59,10 +58,10 @@ then
             if [ $volume != "muted" ] 
             then
                 pamixer -d 10
+
+                currentVol=$(pamixer --get-volume-human)
                 # Send notification thing
-                #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
-                #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebe3ba '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>me down</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#bfdaf2 '      ' "<span foreground='#ACFFAD' font_desc='Cartograph CF Italic 19'><b>Vo</b></span><span foreground='#7fd4ff' font_desc='Cartograph CF Italic 19'><b>lu</b></span><span foreground='#C1B3FF' font_desc='Cartograph CF Italic 19'><b>me down</b></span>\n<span foreground='#cddbf9' font_desc='MesloLGS NF 15'>~ 墳 $currentVol ~<b>$(bar_thingy)</b></span>"
             fi
             ;;
         toggle)
@@ -71,14 +70,11 @@ then
             if [ $volume != "muted" ] 
             then
                 # Send notification thing
-                #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
-                #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebb9b9 '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Mu</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>t</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>ed</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#bfdaf2 '      ' "<span foreground='#ACFFAD' font_desc='Cartograph CF Italic 19'><b>Mu</b></span><span foreground='#7fd4ff' font_desc='Cartograph CF Italic 19'><b>t</b></span><span foreground='#C1B3FF' font_desc='Cartograph CF Italic 19'><b>ed</b></span>\n<span foreground='#cddbf9' font_desc='MesloLGS NF 15'>~ 墳 0% ~<b>$(bar_thingy)</b></span>"
             else
                 # Send notification thing
-                #dunstify -i $icon_name -r ${ID} -a ${APPNAME} -h string:fgcolor:#ebe3ba -h string:frcolor:#ebe3ba $(bar_thingy) 
-                #dunstify -h string:fgcolor:#2c2e3e '      ' -i $icon_name -r ${ID} -a ${APPNAME} "<span foreground='#caf6bb' font_desc='UbuntuMono Nerd Font 22'><b>Volume</b></span>\n<span foreground='#ebb9b9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
-                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#ebb9b9 '      ' "<span foreground='#ebb9b9' font_desc='Cartograph CF Italic 19'><b>Un</b></span><span foreground='#ebe3b9' font_desc='Cartograph CF Italic 19'><b>mut</b></span><span foreground='#caf6bb' font_desc='Cartograph CF Italic 19'><b>ed</b></span>\n<span foreground='#cddbf9' font_desc='Source Code Pro 23'><b>$(bar_thingy)</b></span>"
+                currentVol=$(pamixer --get-volume-human)
+                dunstify  -i $icon_name -r $ID -a $APPNAME -h string:fgcolor:#bfdaf2 '      ' "<span foreground='#ACFFAD' font_desc='Cartograph CF Italic 19'><b>Un</b></span><span foreground='#7fd4ff' font_desc='Cartograph CF Italic 19'><b>mut</b></span><span foreground='#C1B3FF' font_desc='Cartograph CF Italic 19'><b>ed</b></span>\n<span foreground='#cddbf9' font_desc='MesloLGS NF 15'>~ 墳 $currentVol ~<b>$(bar_thingy)</b></span>"
             fi
             ;;
         *)
