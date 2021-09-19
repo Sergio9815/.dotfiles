@@ -203,6 +203,10 @@ XF86AudioRaiseVolume
 XF86AudioLowerVolume
     sh ~/.scripts/notification/volume_pam.sh down
 
+# Keyboard layout
+alt + space
+    sh ~/.scripts/notification/layout.sh
+
 # PowerMenu
 super + x
     ~/.config/polybar/forest/scripts/powermenu.sh
