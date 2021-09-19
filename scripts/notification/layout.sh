@@ -8,7 +8,9 @@ welcome() {
 ███████  ███████  ███████  ███   ███   ███████
 ██          ██           ███   ███         ██ 
 ███████  ███████            ████████    ███████ 
-                                                                                   
+            
+Dependencies:
+    - xkblayout-state -> Get current keyboard layout                                                                       
 "
 exit 1
 }
