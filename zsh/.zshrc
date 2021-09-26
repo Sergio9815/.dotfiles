@@ -125,9 +125,37 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
 
 # Aliases
 
-#System aliases
+# Update System
+  alias update='sudo apt-get update && sudo apt-get dist-upgrade'
+  alias install='sudo apt-get install'
+  alias uninstall='sudo apt-get --purge remove'
+  
+# Basics
   alias zshconfig="code .dotfiles/zsh/.zshrc"
   alias hyperconfig="code .dotfiles/hyper/.hyper.js"
+  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
+  alias ll='lsd -lh --group-dirs=first'
+  alias la='lsd -a --group-dirs=first'
+  alias l='lsd --group-dirs=first'
+  alias lla='lsd -lha --group-dirs=first'
+  alias ls='lsd --group-dirs=first'
+  alias access='sudo chown -R $USER:$USER $HOME && startx'
+  alias resetPlasma='kquitapp5 plasmashell && kstart5 plasmashell'
+
+# Info
+  alias neofetch='neofetch --ascii_distro Linux_Lite'
+  alias pikafetch='neofetch --ascii ~/.ascii-art/pika.txt'
+  alias trifetch='neofetch --ascii ~/.ascii-art/tri.txt'
+  alias spiderfetch='neofetch --ascii ~/.ascii-art/spider.txt'
+  
+# Git aliases
+  alias push='git push origin'
+  alias pull='git pull origin'
+  alias commit='git commit -am'
+  alias save='git add . && gitmoji -c'
+  alias gt='cd /home/sagb/Documents/Github && ls '
+
+# Misc aliases
   alias cows='fortune | cowsay | lolcat'
   alias macchina='~/.cargo/bin/macchina'
   alias clock='tty-clock -c'
@@ -135,32 +163,6 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias box-clock='tty-clock -s -x -b -c'
   alias bonsai='bonsai -T'
 
-  alias update='sudo apt-get update && sudo apt-get dist-upgrade'
-  alias install='sudo apt-get install'
-  alias uninstall='sudo apt-get --purge remove'
-  
-  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
-  
-  alias ll='lsd -lh --group-dirs=first'
-  alias la='lsd -a --group-dirs=first'
-  alias l='lsd --group-dirs=first'
-  alias lla='lsd -lha --group-dirs=first'
-  alias ls='lsd --group-dirs=first'
-
-  alias neofetch='neofetch --ascii_distro Linux_Lite'
-  alias pikafetch='neofetch --ascii ~/.ascii-art/pika.txt'
-  alias trifetch='neofetch --ascii ~/.ascii-art/tri.txt'
-  alias spiderfetch='neofetch --ascii ~/.ascii-art/spider.txt'
-  
-  alias gt='cd /home/sagb/Documents/Github && ls '
-  alias access='sudo chown -R $USER:$USER $HOME && startx'
-
-#Git aliases
-  alias push='git push origin'
-  alias pull='git pull origin'
-  alias commit='git commit -am'
-  alias save='git add . && gitmoji -c'
-  
 # WSL aliases
   alias myUser='/mnt/c/Users/gserg/'
   alias github='cd /mnt/c/Users/gserg/Documents/Github && ls '
