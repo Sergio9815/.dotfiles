@@ -7,7 +7,7 @@
 " Last Change: 2020/04/24 16:58
 " ===============================================================
 
-" ~/.vim/plugged/tender.vim/
+" ~/.vim/plugged/tender.vim/colors
 
 set background=dark
 hi clear
