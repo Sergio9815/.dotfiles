@@ -138,7 +138,8 @@ super + shift + b
 
 # Open File manager
 super + shift + f
-    Thunar
+    dolphin
+#    Thunar
 
 # Open Vscode
 super + shift + v
@@ -158,6 +159,7 @@ super + shift + m
 
 # lockscreen
 super + l
+#    loginctl lock-session
     betterlockscreen -l dim
 
 # Clear workspace
@@ -177,7 +179,8 @@ super + e
 
 # Screenshot
 super + shift + s
-    xfce4-screenshooter && sh ~/.scripts/notification/screenshot.sh &
+    spectacle && sh ~/.scripts/notification/screenshot.sh &
+#    xfce4-screenshooter && sh ~/.scripts/notification/screenshot.sh &
 
 # Pomotroid
 super + shift + p
