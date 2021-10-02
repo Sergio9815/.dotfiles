@@ -126,9 +126,16 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
 # Aliases
 
 # Update System
-  alias update='sudo apt-get update && sudo apt-get dist-upgrade'
-  alias install='sudo apt-get install'
-  alias uninstall='sudo apt-get --purge remove'
+  alias update='sudo apt update && sudo apt full-upgrade'
+  alias install='sudo apt install'
+  alias purge='sudo apt purge'
+  alias autoremove='sudo apt autoremove'
+  alias show='apt show'
+  alias search='apt search'
+  alias listIn='apt list --installed'
+  alias listUp='apt list --upgradeable'
+  alias isInstalled='apt list | grep'
+
   
 # Basics
   alias zshconfig="code .dotfiles/zsh/.zshrc"
