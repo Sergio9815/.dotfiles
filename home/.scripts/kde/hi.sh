@@ -2,6 +2,7 @@
 
 # Dependencies:
 #  --> notify-send 
+#  --> libnotify-bin
 
 NAME="Sergio"
 APPNAME=609
