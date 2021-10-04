@@ -49,7 +49,7 @@ hi MatchParen guifg=#f26d8c ctermfg=203 guibg=NONE ctermbg=NONE gui=Bold cterm=B
 hi NonText guifg=#99EBFC ctermfg=238 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
 " hi Normal guifg=#eeeeee ctermfg=255 guibg=#1c1e28 ctermbg=235 gui=NONE cterm=NONE 
-hi Normal guifg=#eeeeee ctermfg=255 guibg=#18181c ctermbg=235 gui=NONE cterm=NONE
+hi Normal guifg=#eeeeee ctermfg=255 guibg=#181819 ctermbg=235 gui=NONE cterm=NONE
 hi PMenu guifg=#dadada ctermfg=253 guibg=#454f54 ctermbg=239 gui=NONE cterm=NONE
 hi PMenuSel guifg=#454f54 ctermfg=239 guibg=#ACFFAD ctermbg=185 gui=NONE cterm=NONE
 hi PmenuSbar guifg=#454f54 ctermfg=239 guibg=#454f54 ctermbg=239 gui=NONE cterm=NONE
@@ -162,7 +162,7 @@ hi markdownAutomaticLink guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NO
 hi markdownUrl guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrlTitle guifg=#FDFFB6 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownUrlDelimiter guifg=#FFC996 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi markdownUrlTitleDelimiter guifg=#18181c ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi markdownUrlTitleDelimiter guifg=#181819 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownCode guifg=#FDFFB6 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi markdownEscape guifg=#73cef4 ctermfg=81 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -257,7 +257,7 @@ hi stylusId guifg=#ACFFAD ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NON
 hi stylusIdChar guifg=#9beeff ctermfg=153 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi cssVisualVal guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi stylusImport guifg=#FFC996 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi vimCommentString guifg=#18181c ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi vimCommentString guifg=#181819 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimCommentTitle guifg=#1c1e28 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi vimError guifg=#eeeeee ctermfg=255 guibg=#f26d8c ctermbg=203 gui=NONE cterm=NONE
 hi xmlNamespace guifg=#FFC996 ctermfg=215 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -266,7 +266,7 @@ hi xmlProcessingDelim guifg=#f26d8c ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE
 hi javascriptOpSymbol guifg=#C1B3FF ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptDocNotation guifg=#99EBFC ctermfg=242 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptDocNamedParamType guifg=#1c1e28 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
-hi javascriptDocParamName guifg=#18181c ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
+hi javascriptDocParamName guifg=#181819 ctermfg=58 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptDocParamType guifg=#1c1e28 ctermfg=66 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptTemplateSB guifg=#f26d8c ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi javascriptRepeat guifg=#ACFFAD ctermfg=185 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
@@ -277,9 +277,9 @@ hi yamlFlowString guifg=#FDFFB6 ctermfg=180 guibg=NONE ctermbg=NONE gui=NONE cte
 hi yamlFlowStringDelimiter guifg=#eeeeee ctermfg=255 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 hi yamlKeyValueDelimiter guifg=#f26d8c ctermfg=203 guibg=NONE ctermbg=NONE gui=NONE cterm=NONE
 
-let g:terminal_color_foreground = "#18181c"
+let g:terminal_color_foreground = "#181819"
 let g:terminal_color_background = "#eeeeee"
-let g:terminal_color_0 = "#18181c"
+let g:terminal_color_0 = "#181819"
 let g:terminal_color_1 = "#f26d8c"
 let g:terminal_color_2 = "#ACFFAD"
 let g:terminal_color_3 = "#FFC996"
@@ -287,7 +287,7 @@ let g:terminal_color_4 = "#9beeff"
 let g:terminal_color_5 = "#FDFFB6"
 let g:terminal_color_6 = "#73cef4"
 let g:terminal_color_7 = "#eeeeee"
-let g:terminal_color_8 = "#18181c"
+let g:terminal_color_8 = "#181819"
 let g:terminal_color_9 = "#f26d8c"
 let g:terminal_color_10 = "#ACFFAD"
 let g:terminal_color_11 = "#FFC996"

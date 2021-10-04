@@ -1,5 +1,5 @@
 {
-    "background-color": "#18181c",
+    "background-color": "#181819",
     "badge-color": "#6dcbf9",
     "bold-color": "#FFFFFF",
     "comment": "",
@@ -7,10 +7,10 @@
     "cursor-foreground-color": "#FFC996",
     "foreground-color": "#EFEFEF",
     "highlight-background-color": "#FDFFB6",
-    "highlight-foreground-color": "#18181c",
+    "highlight-foreground-color": "#181819",
     "name": "Kira-theme",
     "palette": [
-        "#18181c",
+        "#181819",
         "#f26d8c",
         "#71EFA3",
         "#FFEDA3",

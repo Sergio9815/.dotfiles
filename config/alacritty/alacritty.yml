@@ -78,23 +78,23 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
 
-
+# 18181c
 colors:
   primary:
-    background: '#18181c'
+    background: '#181819'
     foreground: '#ffffff'
 
   cursor:
-    text: '#18181c'
+    text: '#181819'
     cursor: '#FFC996'
 
   selection:
-    text: '#18181c'
+    text: '#181819'
     background: '#FFEDA3'
 
   # Normal colors
   normal:
-    black:   '#18181c'
+    black:   '#181819'
     red:     '#f26d8c'
     green:   '#ACFFAD'
     yellow:  '#FDFFB6'
