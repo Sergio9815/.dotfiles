@@ -10,7 +10,7 @@
     
     "dracula": {
         "base": [
-            "#181819",
+            "#161616",
             "#F8F8F2",
             "#44475A",
             "#6272A4",
@@ -23,7 +23,7 @@
             "#F1FA8C"
         ],
         "ansi": [
-            "#181819",
+            "#161616",
             "#EB6383",
             "#71EFA3",
             "#F1FA8C",
@@ -52,11 +52,11 @@
             "#424450",
             "#343746",
             "#21222C",
-            "#181819"
+            "#161616"
         ]
     },
     "colors": {
-        "terminal.background": "#181819",
+        "terminal.background": "#161616",
         "terminal.foreground": "#F8F8F2",
         "terminal.ansiBrightBlack": "#6272A4",
         "terminal.ansiBrightRed": "#EB6383",
@@ -66,7 +66,7 @@
         "terminal.ansiBrightMagenta": "#FF92DF",
         "terminal.ansiBrightCyan": "#A4FFFF",
         "terminal.ansiBrightWhite": "#FFFFFF",
-        "terminal.ansiBlack": "#181819",
+        "terminal.ansiBlack": "#161616",
         "terminal.ansiRed": "#EB6383",
         "terminal.ansiGreen": "#71EFA3",
         "terminal.ansiYellow": "#FFEF9F",
@@ -75,7 +75,7 @@
         "terminal.ansiCyan": "#8BE9FD",
         "terminal.ansiWhite": "#F8F8F2",
 
-        "contrastBorder": "#181819",
+        "contrastBorder": "#161616",
         "focusBorder": "#6272A4",
         "foreground": "#F8F8F2",
         "selection.background": "#C1B3FF",
@@ -85,12 +85,12 @@
         "button.foreground": "#F8F8F2",
 
         "dropdown.background": "#343746",
-        "dropdown.border": "#181819",
+        "dropdown.border": "#161616",
         "dropdown.foreground": "#F8F8F2",
 
-        "input.background": "#181819",
+        "input.background": "#161616",
         "input.foreground": "#F8F8F2",
-        "input.border": "#181819",
+        "input.border": "#161616",
         "input.placeholderForeground": "#6272A4",
         
         "inputOption.activeBorder": "#C1B3FF",
@@ -102,7 +102,7 @@
         "badge.background": "#44475A",
         "progressBar.background": "#f569b8",
 
-        "list.activeSelectionBackground": "#181819",
+        "list.activeSelectionBackground": "#161616",
         "list.activeSelectionForeground": "#F8F8F2",
         "list.dropBackground": "#44475A",
         "list.focusBackground": "#44475A75",
@@ -113,37 +113,37 @@
         "list.errorForeground": "#EB6383",
 
         //permite cambiar entre vistas
-        "activityBar.background": "#181819",
+        "activityBar.background": "#161616",
         "activityBar.inactiveForeground": "#6272A4",
         "activityBar.foreground": "#F8F8F2",
         "activityBar.activeBorder": "#f569b8",
-        "activityBar.activeBackground": "#181819",
+        "activityBar.activeBackground": "#161616",
 
         "activityBarBadge.background": "#f569b8",
         "activityBarBadge.foreground": "#F8F8F2",
 
         //contiene diferentes vistas para navegar por el proyecto
-        "sideBar.background": "#181819",
+        "sideBar.background": "#161616",
         "sideBarTitle.foreground": "#F8F8F2",
-        "sideBarSectionHeader.background": "#181819",
-        "sideBarSectionHeader.border": "#181819",
+        "sideBarSectionHeader.background": "#161616",
+        "sideBarSectionHeader.border": "#161616",
 
         "editorGroup.border": "#C1B3FF",
         "editorGroup.dropBackground": "#292c415e",
-        "editorGroupHeader.tabsBackground": "#181819",
+        "editorGroupHeader.tabsBackground": "#161616",
 
         "tab.activeBackground": "#44475a00",
         "tab.activeForeground": "#F8F8F2",
 
-        "tab.border": "#181819",
+        "tab.border": "#161616",
         "tab.activeBorderTop": "#C1B3FF",
 
-        "tab.inactiveBackground": "#181819",
+        "tab.inactiveBackground": "#161616",
         "tab.inactiveForeground": "#6272A4",
 
         //área principal para editar sus archivos
         "editor.foreground": "#f8f8f2",
-        "editor.background": "#181819",
+        "editor.background": "#161616",
         "editorLineNumber.foreground": "#6272A4",
         "editor.selectionBackground": "#44475A",
         "editor.selectionHighlightBackground": "#424450",
@@ -172,10 +172,10 @@
         "editorIndentGuide.background": "#FFFFFF1A",
         "editorIndentGuide.activeBackground": "#FFFFFF45",
 
-        "editorRuler.foreground": "#181819",
+        "editorRuler.foreground": "#161616",
         "editorCodeLens.foreground": "#6272A4",
 
-        "editorOverviewRuler.border": "#181819",
+        "editorOverviewRuler.border": "#161616",
         "editorOverviewRuler.selectionHighlightForeground": "#D6ACFF",
         "editorOverviewRuler.wordHighlightForeground": "#8BE9FD",
         "editorOverviewRuler.wordHighlightStrongForeground": "#71EFA3",
@@ -202,7 +202,7 @@
         "diffEditor.insertedTextBackground": "#71EFA320",
         "diffEditor.removedTextBackground": "#EB638350",
 
-        "editorWidget.background": "#181819",
+        "editorWidget.background": "#161616",
 
         "editorSuggestWidget.background": "#21222C",
         "editorSuggestWidget.foreground": "#F8F8F2",
@@ -224,7 +224,7 @@
         "peekViewResult.selectionBackground": "#44475A",
         "peekViewResult.selectionForeground": "#F8F8F2",
 
-        "peekViewTitle.background": "#181819",
+        "peekViewTitle.background": "#161616",
         "peekViewTitleDescription.foreground": "#6272A4",
         "peekViewTitleLabel.foreground": "#F8F8F2",
 
@@ -236,7 +236,7 @@
 
         //información de salida o depuración, 
         // errores y advertencias, o una terminal integrada
-        "panel.background": "#181819",
+        "panel.background": "#161616",
         "panel.border": "#C1B3FF",
 
         "panelTitle.activeBorder": "#f569b8",
@@ -245,10 +245,10 @@
 
         //información sobre el proyecto abierto
         "statusBar.background": "#C1B3FF",
-        "statusBar.foreground": "#181819",
+        "statusBar.foreground": "#161616",
         "statusBar.debuggingBackground": "#EB6383",
-        "statusBar.debuggingForeground": "#181819",
-        "statusBar.noFolderBackground": "#181819",
+        "statusBar.debuggingForeground": "#161616",
+        "statusBar.noFolderBackground": "#161616",
         "statusBar.noFolderForeground": "#F8F8F2",
 
         "statusBarItem.prominentBackground": "#EB6383",
@@ -256,10 +256,10 @@
         "statusBarItem.remoteForeground": "#F8F8F2",
         "statusBarItem.remoteBackground": "#c9458e",
 
-        "titleBar.activeBackground": "#181819",
+        "titleBar.activeBackground": "#161616",
         "titleBar.activeForeground": "#F8F8F2",
-        "titleBar.inactiveBackground": "#181819",
-        // "titleBar.inactiveBackground": "#181819",
+        "titleBar.inactiveBackground": "#161616",
+        // "titleBar.inactiveBackground": "#161616",
         "titleBar.inactiveForeground": "#6272A4",
 
         "notification.background": "#282A36",
@@ -288,23 +288,23 @@
         "settings.modifiedItemIndicator": "#FFEF9F",
         "settings.dropdownBackground": "#21222C",
         "settings.dropdownForeground": "#F8F8F2",
-        "settings.dropdownBorder": "#181819",
+        "settings.dropdownBorder": "#161616",
         "settings.checkboxBackground": "#21222C",
         "settings.checkboxForeground": "#F8F8F2",
-        "settings.checkboxBorder": "#181819",
+        "settings.checkboxBorder": "#161616",
         "settings.textInputBackground": "#21222C",
         "settings.textInputForeground": "#F8F8F2",
-        "settings.textInputBorder": "#181819",
+        "settings.textInputBorder": "#161616",
         "settings.numberInputBackground": "#21222C",
         "settings.numberInputForeground": "#F8F8F2",
-        "settings.numberInputBorder": "#181819",
+        "settings.numberInputBorder": "#161616",
 
         //barra de navegación sobre su contenido llamada
         "breadcrumb.foreground": "#6272A4",
         "breadcrumb.background": "#282a3600",
         "breadcrumb.focusForeground": "#F8F8F2",
         "breadcrumb.activeSelectionForeground": "#F8F8F2",
-        "breadcrumbPicker.background": "#181819",
+        "breadcrumbPicker.background": "#161616",
 
         "listFilterWidget.background": "#343746",
         "listFilterWidget.outline": "#424450",

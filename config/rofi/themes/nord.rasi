@@ -9,11 +9,11 @@ configuration {
 }
 
 * {
-  background-color: #181819;
+  background-color: #161616;
   bg-alt: #7fd4ff;
   fg: #ECEFF4;
 
-  nord-blue-light: #181819;
+  nord-blue-light: #161616;
   nord-yellow: #A8D7FE;
 
   border: 0;

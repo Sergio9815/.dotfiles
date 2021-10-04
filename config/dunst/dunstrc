@@ -119,7 +119,7 @@ mouse_right_click = close_current
 #----------------------
 
 [urgency_low]
-background = "#181819"
+background = "#161616"
 foreground = "#f9f7f3"
 highlight = "#7fd4ff"
 timeout = 3
@@ -127,14 +127,14 @@ icon = /usr/share/icons/dunst/system/info.svg
 
 # ffcc99
 [urgency_normal]
-background = "#181819"
+background = "#161616"
 foreground = "#f9f7f3"
 highlight = "#7fd4ff"
 timeout = 4
 icon = /usr/share/icons/dunst/system/info.svg
 
 [urgency_critical]
-background = "#181819"
+background = "#161616"
 foreground = "#f9f7f3"
 highlight = "#7fd4ff"
 timeout = 5
