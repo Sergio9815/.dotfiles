@@ -195,7 +195,7 @@ moveCurrentDesktopToRight=none
 removeCurrentDesktop=none
 removeLastDesktop=none
 renameCurrentDesktop=none
-switchToRecentDesktop=Ctrl+Tab
+switchToRecentDesktop=Meta+Tab
 view_actual_size=none
 view_zoom_in=Meta+=
 view_zoom_out=Meta+-
