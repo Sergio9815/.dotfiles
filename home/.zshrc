@@ -160,7 +160,7 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias pull='git pull origin'
   alias commit='git commit -am'
   alias save='git add . && gitmoji -c'
-  alias gt='cd /home/sagb/Documents/Github && ls '
+  alias gt='cd /home/sagb/Documents/Githb && ls '
 
 # Misc aliases
   alias cows='fortune | cowsay | lolcat'
