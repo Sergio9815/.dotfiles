@@ -111,7 +111,7 @@ stopmedia=Media Stop
 _launch=Meta+D
 
 [org.kde.plasma.emojier.desktop][Global Shortcuts]
-_launch=Meta+S
+_launch=Meta+E
 
 [org.kde.spectacle.desktop][Global Shortcuts]
 ActiveWindowScreenShot=Meta+Print
@@ -282,6 +282,7 @@ activate task manager entry 6=Meta+6
 activate task manager entry 7=Meta+7
 activate task manager entry 8=Meta+8
 activate task manager entry 9=Meta+9
+activate widget 118=none
 activate widget 24=Alt+F1
 activate widget 71=none
 activate widget 75=none
@@ -315,11 +316,11 @@ view_zoom_out=Meta+-
 
 [plasmawindowed][Global Shortcuts]
 clear-history=none
-clipboard_action=none
+clipboard_action=Ctrl+Alt+X
 cycleNextAction=none
 cyclePrevAction=none
 edit_clipboard=none
-repeat_action=none
+repeat_action=Ctrl+Alt+R
 show-barcode=none
 show-on-mouse-pos=none
 
