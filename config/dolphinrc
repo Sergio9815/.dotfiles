@@ -23,6 +23,10 @@ Width 1093=768
 Width 1536=768
 Width 1920=1912
 
+[Open-with settings]
+CompletionMode=1
+History=
+
 [PlacesPanel]
 IconSize=32
 
