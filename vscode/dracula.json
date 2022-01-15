@@ -116,10 +116,10 @@
         "activityBar.background": "#161616",
         "activityBar.inactiveForeground": "#7a7492",
         "activityBar.foreground": "#F8F8F2",
-        "activityBar.activeBorder": "#fa80c5",
+        "activityBar.activeBorder": "#C1B3FF",
         "activityBar.activeBackground": "#161616",
 
-        "activityBarBadge.background": "#fa80c5",
+        "activityBarBadge.background": "#C1B3FF",
         "activityBarBadge.foreground": "#F8F8F2",
 
         //contiene diferentes vistas para navegar por el proyecto
@@ -237,14 +237,14 @@
         //información de salida o depuración, 
         // errores y advertencias, o una terminal integrada
         "panel.background": "#161616",
-        "panel.border": "#C1B3FF",
+        "panel.border": "#7fd4ff",
 
-        "panelTitle.activeBorder": "#fa80c5",
+        "panelTitle.activeBorder": "#C1B3FF",
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#7a7492",
 
         //información sobre el proyecto abierto
-        "statusBar.background": "#C1B3FF",
+        "statusBar.background": "#7fd4ff",
         "statusBar.foreground": "#161616",
         "statusBar.debuggingBackground": "#f26d8c",
         "statusBar.debuggingForeground": "#161616",
