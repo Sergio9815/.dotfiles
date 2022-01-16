@@ -110,16 +110,16 @@
         "list.hoverBackground": "#44475A75",
         "list.inactiveSelectionBackground": "#44475A75",
         "list.warningForeground": "#D6ACFF",
-        "list.errorForeground": "#FFC996",
+        "list.errorForeground": "#f67cbe",
 
         //permite cambiar entre vistas
         "activityBar.background": "#161616",
         "activityBar.inactiveForeground": "#7a7492",
         "activityBar.foreground": "#F8F8F2",
-        "activityBar.activeBorder": "#FFC996",
+        "activityBar.activeBorder": "#f67cbe",
         "activityBar.activeBackground": "#161616",
 
-        "activityBarBadge.background": "#FFC996",
+        "activityBarBadge.background": "#f67cbe",
         "activityBarBadge.foreground": "#161616",
 
         //contiene diferentes vistas para navegar por el proyecto
@@ -129,7 +129,7 @@
         "sideBarSectionHeader.border": "#161616",
 
         //arrastrar archivos al area de trabajo
-        "editorGroup.border": "#FFC996",
+        "editorGroup.border": "#f67cbe",
         "editorGroup.dropBackground": "#4246615e",
         "editorGroupHeader.tabsBackground": "#161616",
 
@@ -137,7 +137,7 @@
         "tab.activeForeground": "#F8F8F2",
 
         "tab.border": "#161616",
-        "tab.activeBorderTop": "#FFC996",
+        "tab.activeBorderTop": "#7fd4ff",
 
         "tab.inactiveBackground": "#161616",
         "tab.inactiveForeground": "#7a7492",
@@ -240,14 +240,14 @@
         "panel.background": "#161616",
         "panel.border": "#7fd4ff",
 
-        "panelTitle.activeBorder": "#FFC996",
+        "panelTitle.activeBorder": "#f67cbe",
         "panelTitle.activeForeground": "#F8F8F2",
         "panelTitle.inactiveForeground": "#7a7492",
 
         //información sobre el proyecto abierto
         "statusBar.background": "#7fd4ff",
         "statusBar.foreground": "#161616",
-        "statusBar.debuggingBackground": "#FFC996",
+        "statusBar.debuggingBackground": "#f67cbe",
         "statusBar.debuggingForeground": "#161616",
         "statusBar.noFolderBackground": "#161616",
         "statusBar.noFolderForeground": "#F8F8F2",
@@ -255,7 +255,7 @@
         "statusBarItem.prominentBackground": "#f26d8c",
         "statusBarItem.prominentHoverBackground": "#D6ACFF",
         "statusBarItem.remoteForeground": "#161616",
-        "statusBarItem.remoteBackground": "#FFC996",
+        "statusBarItem.remoteBackground": "#f67cbe",
 
         "titleBar.activeBackground": "#161616",
         "titleBar.activeForeground": "#F8F8F2",
@@ -272,14 +272,14 @@
         "notification.errorForeground": "#F8F8F2",
         "notification.infoBackground": "#7fd4ff",
         "notification.infoForeground": "#282A36",
-        "notification.warningBackground": "#FFC996",
+        "notification.warningBackground": "#f67cbe",
         "notification.warningForeground": "#282A36",
 
         "extensionButton.prominentForeground": "#F8F8F2",
         "extensionButton.prominentBackground": "#8efcba90",
         "extensionButton.prominentHoverBackground": "#89fab69d",
 
-        "pickerGroup.border": "#FFC996",
+        "pickerGroup.border": "#f67cbe",
         "pickerGroup.foreground": "#7fd4ff",
         "debugToolBar.background": "#21222C",
         "walkThrough.embeddedEditorBackground": "#21222C",
