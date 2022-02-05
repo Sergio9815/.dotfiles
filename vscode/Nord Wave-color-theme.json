@@ -60,6 +60,9 @@
 		"editor.findMatchBackground": "#acebf9a6",
     "editor.findMatchHighlightBackground": "#53596587",
     "editor.findRangeHighlightBackground": "#44475A75",
+		"editor.findMatchBorder": "#9fc7df",
+		"editor.findMatchHighlightBorder": "#9fc7df",
+		"editor.findRangeHighlightBorder": "#9fc7df",
 		"editor.rangeHighlightBackground": "#C1B3FF15",
 		
 		"extensionButton.prominentBackground": "#b9dfac",
