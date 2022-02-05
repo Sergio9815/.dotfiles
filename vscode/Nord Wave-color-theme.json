@@ -58,8 +58,8 @@
 		"editorWidget.background": "#1a1a1a",
 		"editor.wordHighlightBackground": "#7fd4ff50",
 		"editor.findMatchBackground": "#8be8fda6",
-    "editor.findMatchHighlightBackground": "#53596587",
-    "editor.findRangeHighlightBackground": "#44475A75",
+		"editor.findMatchHighlightBackground": "#53596587",
+		"editor.findRangeHighlightBackground": "#44475A75",
 		"editor.rangeHighlightBackground": "#C1B3FF15",
 		
 		"extensionButton.prominentBackground": "#a3be8c",
@@ -83,9 +83,9 @@
 		"list.hoverForeground": "#d8dee9ff",
 		"list.inactiveSelectionBackground": "#00000020",
 		"list.inactiveSelectionForeground": "#88c0d0",
-    "list.dropBackground": "#88c0d0",
-    "list.errorForeground": "#de7983",
-    "list.warningForeground": "#FFC996",
+		"list.dropBackground": "#222222",
+		"list.errorForeground": "#de7983",
+		"list.warningForeground": "#FFC996",
 
 		"panel.background": "#1a1a1a",
 		"panel.border": "#1a1a1a60",
@@ -160,7 +160,7 @@
 
 		"widget.shadow": "#00000030",
 	},
-	"tokenColors": [
+		"tokenColors": [
 		{
 			"settings": {
 				"foreground": "#d8dee9ff",
