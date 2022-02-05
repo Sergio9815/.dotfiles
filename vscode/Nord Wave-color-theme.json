@@ -91,7 +91,7 @@
     "list.warningForeground": "#FFC996",
 
 		"panel.background": "#1a1a1a",
-		"panel.border": "#1a1a1a60",
+		"panel.border": "#88c0d0",//1a1a1a60
 		"panelTitle.activeForeground": "#eeffff",
 
 		"peekView.border": "#00000030",
