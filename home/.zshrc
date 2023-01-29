@@ -161,7 +161,7 @@ source /usr/share/zsh-plugins/sudo.plugin.zsh
   alias commit='git commit -am'
   alias save='git add . && gitmoji -c'
   alias gt='cd /home/sagb/Documents/Githb && ls '
-  alias pro='cd /home/sagb/Documents/Githb/Projects && ls '
+  alias dev='cd /home/sagb/Documents/Githb/Projects && ls '
 
 # Misc aliases
   alias cows='fortune | cowsay | lolcat'
