@@ -4,21 +4,21 @@
 // See https://hyper.is#cfg for all currently supported options.
 
 //COLORS
-const black = '#1a1c2b';
-const red = '#EB6383';
-const green = '#71EFA3';
+const black = '#120d0e';
+const red = '#f26d8c';
+const green = '#ACFFAD';
 const yellow = '#FFEDA3';
-const blue = '#57C7FF';
-const magenta = '#C1B3FF';
-const cyan = '#99EBFC';
-const white = '#fff';
+const blue = '#99EBFC';
+const magenta = '#6dcbf9';
+const cyan = '#C1B3FF';
+const white = '#EEEEEE';
 
 const lgBlack = '#686868';
-const lgRed = '#EB6383';
+const lgRed = '#C1B3FF';
 const lgGreen = '#ACFFAD';
 const lgYellow = '#FDFFB6';
-const rose = '#FE6AC0';
-const dark = '#191E2A'
+const rose = '#f26d8c';
+const dark = '#120d0e'
 
 module.exports = {
     config: {
@@ -42,7 +42,7 @@ module.exports = {
 
         // default font size in pixels for all tabs
 
-        fontSize: 14,
+        fontSize: 16,
 
         // font family with optional fallbacks
 
@@ -66,7 +66,7 @@ module.exports = {
 
         // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
 
-        cursorColor: rose,
+        cursorColor: cyan,
 
         // terminal text color under BLOCK cursor
 
@@ -166,7 +166,7 @@ module.exports = {
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
 
-        shell: '',
+        shell: 'C:\\Windows\\System32\\bash.exe',
         // shell: 'C:\\Windows\\System32\\bash.exe',
 
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
@@ -228,7 +228,7 @@ module.exports = {
         //TOOLS
         "hyperpower",
         "hyper-pane",
-        "hyper-opacity",
+        // "hyper-opacity",
         // "hyper-statusline",
         "hyperterm-dibdabs",
         "hyperterm-tabs",
