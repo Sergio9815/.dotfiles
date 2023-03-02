@@ -1,0 +1,68 @@
+configuration {
+  show-icons: true;
+  font: "CaskaydiaCove Nerd Font Bold 14";
+  drun-display-format: "{icon} {name}";
+  display-run: " ";
+  display-drun: " ";
+  display-window: " ";
+  modi: "window,run,drun";
+}
+
+* {
+  background-color: #161616;
+  bg-alt: #7fd4ff;
+  fg: #ECEFF4;
+
+  nord-blue-light: #161616;
+  nord-yellow: #A8D7FE;
+
+  border: 0;
+  lines: 8;
+  padding: 0;
+  margin: 0;
+  spacing: 8;
+}
+
+window {
+  width: 30%;
+  transparency: "real";
+  location:   northEast;
+  y-offset: 40px;
+}
+
+mainbox {
+  children: [inputbar, listview];
+}
+
+listview {
+  columns: 1;
+}
+
+element {
+  padding: 14;
+  orientation: vertical;
+  text-color: @fg;
+}
+
+element selected {
+  background-color: @bg-alt;
+  text-color: @nord-blue-light;
+  border-radius: 10px;
+}
+
+inputbar {
+  background-color: @background;
+  children: [prompt, entry];
+}
+
+prompt {
+  enabled: true;
+  font: "CaskaydiaCove Nerd Font 14";
+  padding: 12 0 0 12;
+  text-color: @nord-yellow;
+}
+
+entry {
+  padding: 12;
+  text-color: @nord-yellow;
+}

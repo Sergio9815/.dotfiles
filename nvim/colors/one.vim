@@ -5,7 +5,7 @@
 " Last Change: 2019/09/09 22:42:48.
 " =============================================================================
 
-" ~/.vim/pack/plugins/start/lightline
+" ~/.vim/pack/plugins/start/lightline/autoload/lightline/colorscheme
 
 " Common colors
 let s:blue   = [ '#99EBFC', 75 ]

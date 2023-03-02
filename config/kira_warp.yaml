@@ -1,0 +1,24 @@
+accent: '#6dcbf9'
+background: '#120d0e'
+details: darker
+foreground: '#EEEEEE'
+
+terminal_colors:
+  bright:
+    black: '#5e6377'
+    blue: '#99EBFC'   
+    cyan: '#C1B3FF'
+    green: '#ACFFAD'
+    magenta: '#6dcbf9'
+    red: '#f26d8c'
+    white: '#EEEEEE'
+    yellow: '#FFEDA3'
+  normal:
+    black: '#120d0e'
+    blue: '#99EBFC'
+    cyan: '#C1B3FF' 
+    green: '#ACFFAD'
+    magenta: '#6dcbf9'
+    red: '#f26d8c'
+    white: '#EEEEEE'
+    yellow: '#FDFFB6'

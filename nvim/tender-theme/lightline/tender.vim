@@ -6,9 +6,10 @@
 " License: MIT
 " Last Change: 2020/04/24 16:58
 " ============================================================
+" " ~/.vim/pack/plugins/start/lightline/autoload/lightline/colorscheme
+"
 
 let s:p = {"normal": {}, "inactive": {}, "insert": {}, "replace": {}, "visual": {}, "tabline": {} }
-
 let s:p.normal.left = [[["#1c1e28", 239], ["#b3deef", 153]], [["#1c1e28", 235], ["#73cef4", 81]]]
 let s:p.normal.middle = [[["#b3deef", 153], ["#689fc9", 66]]]
 let s:p.normal.right = [[["#1c1e28", 239], ["#b3deef", 153]], [["#1c1e28", 235], ["#73cef4", 81]]]
