@@ -172,6 +172,7 @@ source $ZSH/oh-my-zsh.sh
   alias full-clock='tty-clock -s -b -c -C 4'
   alias box-clock='tty-clock -s -x -b -c'
   alias bonsai='bonsai -T'
+  alias batcat='bat'
 
 # WSL aliases
   alias myUser='/mnt/c/Users/gserg/'
