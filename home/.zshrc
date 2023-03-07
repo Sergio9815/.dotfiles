@@ -140,16 +140,17 @@ source $ZSH/oh-my-zsh.sh
 
   
 # Basics
-  alias zshconfig="code .dotfiles/zsh/.zshrc"
-  alias hyperconfig="code .dotfiles/hyper/.hyper.js"
-  alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
+  # alias zshconfig="code .dotfiles/zsh/.zshrc"
+  # alias hyperconfig="code .dotfiles/hyper/.hyper.js"
+  # alias wifi='nmcli dev wifi rescan && nmcli dev wifi'
   alias ll='lsd -lh --group-dirs=first'
   alias la='lsd -a --group-dirs=first'
   alias l='lsd --group-dirs=first'
   alias lla='lsd -lha --group-dirs=first'
   alias ls='lsd --group-dirs=first'
-  alias access='sudo chown -R $USER:$USER $HOME && startx'
-  alias resetPlasma='kquitapp5 plasmashell && kstart5 plasmashell'
+  # alias access='sudo chown -R $USER:$USER $HOME && startx'
+  # alias resetPlasma='kquitapp5 plasmashell && kstart5 plasmashell'
+  alias bat='batcat'
 
 # Info
   alias neofetch='neofetch --ascii_distro Linux_Lite'
@@ -162,8 +163,7 @@ source $ZSH/oh-my-zsh.sh
   alias pull='git pull origin'
   alias commit='git commit -am'
   alias save='git add . && gitmoji -c'
-  alias gt='cd /home/sagb/Documents/Githb && ls '
-  alias dev='cd /home/sagb/Documents/Githb/Projects && ls '
+  alias dev='cd /home/sagb/Documents/Projects && ls '
 
 # Misc aliases
   alias cows='fortune | cowsay | lolcat'
@@ -172,10 +172,6 @@ source $ZSH/oh-my-zsh.sh
   alias full-clock='tty-clock -s -b -c -C 4'
   alias box-clock='tty-clock -s -x -b -c'
   alias bonsai='bonsai -T'
-
-# WSL aliases
-  alias myUser='/mnt/c/Users/gserg/'
-  alias dev='cd /mnt/c/Users/gserg/Documents/Projects && ls '
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
