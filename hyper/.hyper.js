@@ -4,7 +4,7 @@
 // See https://hyper.is#cfg for all currently supported options.
 
 //COLORS
-const black = '#120d0e';
+const black = '#121010';
 const red = '#f26d8c';
 const green = '#ACFFAD';
 const yellow = '#FFEDA3';
@@ -18,7 +18,7 @@ const lgRed = '#C1B3FF';
 const lgGreen = '#ACFFAD';
 const lgYellow = '#FDFFB6';
 const rose = '#f26d8c';
-const dark = '#120d0e'
+const dark = '#121010'
 
 module.exports = {
     config: {
@@ -42,7 +42,7 @@ module.exports = {
 
         // default font size in pixels for all tabs
 
-        fontSize: 16,
+        fontSize: 13,
 
         // font family with optional fallbacks
 
@@ -70,7 +70,7 @@ module.exports = {
 
         // terminal text color under BLOCK cursor
 
-        cursorAccentColor: '#000',
+        cursorAccentColor: '#ffc996',
 
         // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
 
@@ -166,7 +166,7 @@ module.exports = {
         // Cygwin
         // - Example: `C:\\cygwin64\\bin\\bash.exe`
 
-        shell: 'C:\\Windows\\System32\\bash.exe',
+        // shell: 'C:\\Windows\\System32\\bash.exe',
         // shell: 'C:\\Windows\\System32\\bash.exe',
 
         // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
