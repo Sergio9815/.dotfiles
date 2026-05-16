@@ -28,6 +28,7 @@ alias ls='eza --color=always --icons'
 alias ll='eza -lh --color=always --icons --git'
 alias la='eza -lha --color=always --icons'
 alias cat='bat'
+alias music='ncspot --shuffle'
 
 # ==================== WIREGUARD ALIASES ====================
 
